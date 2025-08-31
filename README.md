@@ -62,6 +62,7 @@ It is a practical tool for basic diagnostics and understanding of OBD-II data.
 <p>
 o3DIAG is open source and licensed under MIT-LICENSE.</p>
 
-<footer>
+<footer style="text-align: center; margin-top: 50px;">
   <p>Copyright (c) openw3rk INVENT</p>
+   <img src="Version Beta 1.5/o3DIAG_logo.png" alt="Logo" width="120">
 </footer>
