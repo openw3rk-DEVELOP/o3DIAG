@@ -1,0 +1,1008 @@
+-* OBD2 Errorcodes list (P-codes P0000 - P0999) German *-
+-* For o3DIAG (OBD) (openw3rk INVENT - https://openw3rk.de) *-
+
+<\o3script>
+<o3script.make>
+<o3script.listing/"1"-line/"5"-marks/"1"-tab/"1"-last-line>
+<o3script.START;READ>
+P0000	Keinen Fehler festgestellt
+P0001	Kraftstoffvolumenregler A - offener Stromkreis
+P0002	Kraftstoffvolumenregler A - Bereichs/Funktionsfehler Stromkreis
+P0003	Kraftstoffvolumenregler A - Signal zu niedrig
+P0004	Kraftstoffvolumenregler A - Signal zu hoch
+P0005	Kraftstoffabschalt-Magnetventil - offener Stromkreis
+P0006	Kraftstoffabschalt-Magnetventil - Signal zu niedrig
+P0007	Kraftstoffabschalt-Magnetventil - Signal zu hoch
+P0008	Motorsteuerzeiten, Zylinderreihe 1 - Motorleistung
+P0009	Motorsteuerzeiten, Zylinderreihe 2 - Motorleistung
+P0010	Nockenwellensteller, einlassseitig/links/vorn, Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0011	Nockenwellenstellung, einlassseitig/links/vorn, Zylinderreihe 1 - übermäßige Verstellung in Richtung früh
+P0012	Nockenwellenstellung, einlassseitig/links/vorn, Zylinderreihe 1 - übermäßige Verstellung in Richtung spät
+P0013	Nockenwellensteller, einlassseitig/links/vorn, Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0014	Nockenwellensteller, auslassseitig/rechts/hinten, Zylinderreihe 1 - übermäßige Verstellung in Richtung früh
+P0015	Nockenwellensteller, auslassseitig/rechts/hinten, Zylinderreihe 1 - übermäßige Verstellung in Richtung spät
+P0016	Kurbelwellenstellung/Nockenwellenstellung, Zylinderreihe 1 Sensor A - Bezugsfehler
+P0017	Kurbelwellenstellung/Nockenwellenstellung, Zylinderreihe 1 Sensor B - Bezugsfehler
+P0018	Kurbelwellenstellung/Nockenwellenstellung, Zylinderreihe 2 Sensor A - Bezugsfehler
+P0019	Kurbelwellenstellung/Nockenwellenstellung, Zylinderreihe 2 Sensor B - Bezugsfehler
+P0020	Nockenwellensteller, einlassseitig/links/vorn, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0021	Nockenwellenstellung, einlassseitig/links/vorn Zylinderreihe 2 - übermäßige Verstellung in Richtung früh
+P0022	Nockenwellensteller, einlassseitig/links/vorn Zylinderreihe 2 - übermäßige Verstellung in Richtung spät
+P0023	Nockenwellensteller, auslassseitig/rechts/hinten, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0024	Nockenwellenstellung, auslassseitig/rechts/hinten, Zylinderreihe 2 - übermäßige Verstellung in Richtung früh
+P0025	Nockenwellenstellung, auslassseitig/rechts/hinten, Zylinderreihe 2 - übermäßige Verstellung in Richtung spät
+P0026	Stromkreis für Magnetventil Einlassnockenwellenverstellung, Zylinderreihe 1 - Bereichs-/Funktionsfehler
+P0027	Stromkreis für Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 1 - Bereichs-/Funktionsfehler
+P0028	Stromkreis für Magnetventil Einlassnockenwellenverstellung, Zylinderreihe 2 - Bereichs-/Funktionsfehler
+P0029	Stromkreis für Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 2- Bereichs-/Funktionsfehler
+P0030	Beheizte Lambdasonde 1, Zylinderreihe 1, Heizregelung - Fehlfunktion Stromkreis
+P0031	Beheizte Lambdasonde 1, Zylinderreihe 1, Heizregelung - Signal zu niedrig
+P0032	Beheizte Lambdasonde 1, Zylinderreihe 1, Heizregelung - Signal zu hoch
+P0033	Ladedruck-Regelventil - Fehlfunktion Stromkreis
+P0034	Ladedruck-Regelventil - Signal zu niedrig
+P0035	Ladedruck-Regelventil - Signal zu hoch
+P0036	Beheizte Lambdasonde 2, Zylinderreihe 1, Heizregelung - Fehlfunktion Stromkreis
+P0037	Beheizte Lambdasonde 2, Zylinderreihe 1, Heizregelung - Signal zu niedrig
+P0038	Beheizte Lambdasonde 2, Zylinderreihe 1, Heizregelung - Signal zu hoch
+P0039	Turbolader-/Kompressor-Bypassventil, Regelstromkreis - Bereichs-/Funktionsfehler
+P0040	Lambdasonden-Signal vertauscht, Zylinderreihe 1 Sensor 1/Zylinderreihe 2 Sensor 1
+P0041	Lambdasonden-Signal vertauscht, Zylinderreihe 1 Sensor 2/Zylinderreihe 2 Sensor 2
+P0042	Beheizte Lambdasonde 3, Zylinderreihe 1, Heizregelung - Fehlfunktion Stromkreis
+P0043	Beheizte Lambdasonde 3, Zylinderreihe 1, Heizregelung - Signal zu niedrig
+P0044	Beheizte Lambdasonde 3, Zylinderreihe 1, Heizregelung - Signal zu hoch
+P0045	Turbolader-Kompressor-Regelmagnetventil - offener Stromkreis
+P0046	Turbolader-Kompressor-Regelmagnetventil - Bereichs-/Funktionsfehler Stromkres
+P0047	Turbolader-Kompressor-Regelmagnetventil - Signal zu niedrig
+P0048	Turbolader-Kompressor-Regelmagnetventil - Signal zu hoch
+P0049	Turbinenrad Turbolader/Kompressor - Überdrehzahl
+P0050	Beheizte Lambdasonde 1. Zylinderreihe 2,Heizregelung-Fehlfunktion Stromkreis
+P0051	Beheizte Lambdasonde 1.Zylindereihe 2,Heizregelung- Signal zu niedrig
+P0052	Beheizte Lambdasonde 1 Zylinderreihe 2, Heizregelung- Signal zu hoch
+P0053	Beheizte Lambdasonde Zylinderreihe 1, Sensor 1 -Heizelementwiederstand
+P0054	Beheizte Lambdasonde Zylinderreihe 1, Sensor 2 -Heizelmentwiederstand
+P0055	Beheizte Lambdasonde Zylinderreihe 1, Sensor 3 -Heizelmentwiederstand
+P0056	Beheizte Lambdasonde 2, Zylinderreihe 2 Heizregelung - Fehlfunktion Stromkreis
+P0057	Beheizte Lambdasonde 2 Zylinderreihe 2, Heizregelung - Heizstromkreis Signal zu niedrig
+P0058	Beheizte Lambdasonde 2 Zylinderreihe 2, Heizregelung - Signal zu hoch
+P0059	Beheizte Lambdasonde, Zylinderreihe 2, Sensor 1 -Heizelementwiederstand
+P0060	Beheizte Lambdasonde, Zylinderreihe 2, Sensor 2 -Heizelementwiederstand
+P0061	Beheizte Lambdasonde, Zylinderreihe 2, Sensor 3 -Heizelementwiederstand
+P0062	Beheizte Lambdasonde 3, Zylinderreihe 2, Heizregelung - Fehlfunktion Stromkreis
+P0063	Beheizte Lambdasonde 3, Zylinderreihe 2,Heizregelung - Signal zu niedrig
+P0064	Beheizte Lambdasonde 3 Zylinderreihe 2 Heizregelung - Signal zu hoch
+P0065	Saugluftunterstütztes Einspritzventil - Bereichs/Funktionsfehler
+P0066	Saugluftunterstütztes Einspritzventil - Fehlfunktion Stromkreis/Signal zu niedrig
+P0067	Saugluftunterstütztes Einspritzventil - Signal zu hoch
+P0068	Bezugsfehler Saugrohrdrucksensor / Luftmassenmesser / Drosselklappenstellung
+P0069	Bezugsfehler Saugrohrdrucksensor / Atmosphärendrucksensor
+P0070	Außentemperatursensor- Fehlfunktion Stromkreis
+P0071	Außentemperatursensor - Bereichs/Funktionsfehler
+P0072	Außentemperatursensor - Eingangssignal zu niedrig
+P0073	Außentemperatursensor - Eingangssignal zu hoch
+P0074	Außentemperatursensor - zeitweilige Stromkreisunterbrechung
+P0075	Magnetventil Einlassnockenwellenverstellung, Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0076	Magnetventil Einlassnockenwellenverstellung, Zylinderreihe 1 - Signal zu niedrig
+P0077	Magnetventiel Einlassnockenwellenverstellung, Zylinderreihe 1 - Signal zu hoch
+P0078	Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0079	Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 1 - Signal zu niedrig
+P0080	Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 1 - Signal zu hoch
+P0081	Magnetventil Einlassnockenwellenverstellung, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0082	Magnetventil Einlassnockenwellenverstellung, Zylinderreihe 2 - Signal zu niedrig
+P0083	Magnetventil Einlassnockenwellenverstellung, Zylinderreihe 2 - Signal zu hoch
+P0084	Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0085	Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 2 - Signal zu niedrig
+P0086	Magnetventil Auslassnockenwellenverstellung, Zylinderreihe 2 - Signal zu hoch
+P0087	Krafftstoffverteilerleiste/Systemdruck zu niedrig
+P0088	Krafftstoffverteilerleiste/Systemdruck zu hoch
+P0089	Krafftstoffdruckregler - beeinträchtigte Funktion
+P0090	Karftstoffdosierventil - offener Stromkreis
+P0091	Kraftstoffdosierventiel - Kurzschluss an Masse
+P0092	Kraftstoffdosierventiel - Kurzschluss an Batterie-Plus
+P0093	Kraftstoffsystem undicht - große Undichtigkeit festgestellt
+P0094	Kraftstoffsystem undicht - kleine Undichtigkeit festgestellt
+P0095	Ansauglufttemperatursensor 2 - Fehlfunktion Stromkreis
+P0096	Ansauglufttemperatursensor 2 - bereichs-/Funktionsfehler Stromkreis
+P0097	Ansauglufttemperatursensor 2 - Eingangssignal zu niedrig
+P0098	Ansauglufttemperatursensor 2 - Eingangsignal zu hoch
+P0099	Ansauglufttemperatursensor 2 - zeitweilige Stromkreisunterbrechung
+P0100	Luftmassenmesser/Luftmengenmesser - Fehlfunktion Stromkreis
+P0101	Luftmassenmesser/Luftmengenmesser - Bereichs/Funktionsfehler
+P0102	Luftmassenmesser/Luftmengenmesser - Eingangssignal zu niedrig
+P0103	Luftmassenmesser/ Luftmengenmesser - Eingangssignal zu hoch
+P0104	Luftmassenmesser/Luftmengenmesser - zeitweilige Stromkreisunterbrechungen
+P0105	Saugrohrdrucksensor/Atmosphärendrucksensor - Fehlfunktion Stromkreis
+P0106	Saugrohrdrucksensor/Atmosphärendrucksensor - Bereichs-Funktionsfehler
+P0107	Saugrohrdrucksensor/Atmosphärendrucksensor - Eingangssignal zu niedrig
+P0108	Saugrohrdrucksensor/Atmosphärendrucksensor - Eingangssignal zu hoch
+P0109	Saugrohrdrucksensor/Atmosphärendrucksensor - zeitweilige Stromkreisunterbrechungen
+P0110	Ansauglufttemperatursensor - Fehlfunktion Stromkreis
+P0111	Ansauglufttemperatursensor - Bereichs-/Funktionsfehler
+P0112	Ansauglufttemperatursensor - Eingangssignal zu niedrig
+P0113	Ansauglufttemperatursensor - Eingangssignal zu hoch
+P0114	Ansauglufttemperatursensor - zeitweilige Stromkreisunterbrechungen
+P0115	Kühlmitteltemperatursensor - Fehlfunktion Stromkreis
+P0116	Kühlmitteltemperatursensor - Bereichs-/Funktionsfehler
+P0117	Kühlmitteltemperatursensor - Eingangssignal zu niedrig
+P0118	Kühlmitteltemperatursensor - Eingangssignal zu hoch
+P0119	Kühlmitteltemperatursensor - zeitweilige Stromkreisunterbrechungen
+P0120	Drosselklappen-Potentiometer A/Fahrpedalsensor A - Fehlfunktion Stromkreis Drosselklappenschalter
+P0121	Drosselklappen-Potentiometer A/Fahrpedalsensor A - Bereichs-/Funktionsfehler Drosselklappenschalter
+P0122	Drosselklappen-Potentiometer A/Fahrpedalsensor A - Eingangssignal zu niedrig Drosselklappenschalter
+P0123	Drosselklappen-Potentiometer A/Fahrpedalsensor A - Eingangssignal zu hoch Drosselklappenschalter
+P0124	Drosselklappen-Potentiometer A/Fahrpedalsensor A- zeitweilige Stromkreisunterbrechungen/Drosselklappenschalter
+P0125	Kühlmitteltemperatur zu niedrig -kein geschlossener Regelkreis der Kraftstoffzumessung
+P0126	Kühlmitteltemperatur z niedrig- unrunder Motorlauf
+P0127	Ansauglufttemperatur zu hoch
+P0128	Kühlmittel-Thermostat- Kühlmitteltemperatur unterhalb Thermostat-Regeltemperatur
+P0129	Atmosphärendruck zu niedrig
+P0130	Beheizte Lambdasonde 1Zylinderreihe 1- Fehlfunktion Stromkreis
+P0131	Beheizte Lambdasonde 1, Zylinderreihe 1 - Spannung zu niedrig Lambdasonde 1
+P0132	Beheizte Lambdasonde 1,Zylinderreihe 1 - Spannung zu hoch Lambdasonde1
+P0133	Beheizte Lambdasonde 1, Zylinderreihe 1 - Ansprechverhalten langsam Lambdasonde 1
+P0134	Beheizte Lambdasonde 1,Zylinderreihe 1 - funktionslos Lambdasonde 1
+P0135	Beheizte Lambdasonde 1, Zylinderreihe 1,Heizregelung - Fehlfunktion Stromkreis Lambdasonde 1
+P0136	Beheizte Lambdasonde 2, Zylinderreihe1 - Fehlfunktion Stromkreis Lambdasonde 2
+P0137	Beheizte Lambdasonde 2, Zylinderreihe 1 - Spannung zu niedrig Lambdasonde 2
+P0138	Beheizte Lambdasonde 2, Zylinderreihe 1 - Spannung zu hoch Lambdasonde 2
+P0139	Beheizte Lambdasonde 2,Zylinderreihe 1 - Ansprechverhalten langsam Lambdasonde 2
+P0140	Beheizte Lambdasonde 2, Zylinderreihe 1 - funktionslos Lambdasonde 2
+P0141	Beheizte Lambdasonde 2, Zylinderreihe 1, Heizregelung - Fehlfunktion Stromkreis
+P0142	Beheizte Lambdasonde 3 Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0143	Beheizte Lambdasonde 3, Zylinderreihe 1 - Spannung zu niedrig
+P0144	Beheizte Lambdasonde 3, Zylinderrerihe1 - Spannung zu hoch
+P0145	Beheizte Lambdasonde 3, Zylinderreihe 1 - Ansprechverhalten langsam
+P0146	Beheizte Lambdasonde 3, Zylinderreihe 1 - funktionslos
+P0147	Beheizte Lambdasonde 3, Zylinderreihe 1, Heizregelung - Fehlfunktion Stromkreis
+P0148	Falsche Kraftstofffördermenge
+P0149	Falsche Einspritzzeitpunkt
+P0150	Beheizte Lambdasonde 1, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0151	Beheizte Lambdasonde 1, Zylinderreihe 2 - Spannung zu niedrig
+P0152	Beheizte Lambdasonde 1, Zylinderrerihe 2 - Spannung zu hoch
+P0153	Beheizt Lambdasonde 1, Zylinderreihe 2 - Ansprechverhalten langsam
+P0154	Beheizte Lambdasonde 1 Zylinderreihe 2 - funktionslos
+P0155	Beheizte Lambdasonde 1, Zylinderreihe 2, Heizregelung - Fehlfunktion Stromkreis
+P0156	Beheizte Lambdasonde 2, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0157	Beheizte Lambdasonde 2, Zylinderreihe 2 - Spannung zu niedrig
+P0158	Beheizte Lambdasonde 2, Zylinderrerihe 2 - Spannung zu hoch
+P0159	Beheizt Lambdasonde 2, Zylinderreihe 2 - Ansprechverhalten langsam
+P0160	Beheizte Lambdasonde 2 Zylinderreihe 2 - funktionslos
+P0161	Beheizte Lambdasonde 2, Zylinderreihe 2, Heizregelung - Fehlfunktion Stromkreis
+P0162	Beheizte Lambdasonde 3, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0163	Beheizte Lambdasonde 3, Zylinderreihe 2 - Spannung zu niedrig
+P0164	Beheizte Lambdasonde 3, Zylinderrerihe 2 - Spannung zu hoch
+P0165	Beheizt Lambdasonde 3, Zylinderreihe 2 - Ansprechverhalten langsam
+P0166	Beheizte Lambdasonde 3 Zylinderreihe 2 - funktionslos
+P0167	Beheizte Lambdasonde 3, Zylinderreihe 2, Heizregelung - Fehlfunktion Stromkreis
+P0168	Kraftstofftemperatur hoch
+P0169	Falsche Kraftstoffzusammensetzung
+P0170	Kraftstoffregelung, Zylinderreihe 1 - Fehlfunktion
+P0171	Gemisch zu mager, Zylinderreihe 1
+P0172	Gemisch zu fett, Zylinderreihe 1
+P0173	Kraftstoffregelung, Zylinderreihe 2 - Fehlfunktion
+P0174	Gemisch zu mager, Zylinderreihe 2
+P0175	Gemisch zu fett, Zylinderreihe 2
+P0176	Krafftstoffzusammensetzungssensor - Fehlfunktion Stromkreis
+P0177	Kraftstoffzusammensetzungssensor - Bereichs/Funktionsfehler
+P0178	Kraftstoffzusammensetzungssensor - Eingangssignal zu niedrig
+P0179	Kraftstoffzusammensetzungssensor - Eingangssignal zu hoch
+P0180	Kraftstofftemperatursensor A - Fehlfunktion Stromkreis
+P0181	Kraftstofftemperatursensor A - Bereichs/Funktionsfehler
+P0182	Kraftstofftemperatursensor A - Eingangssignal zu niedrig
+P0183	Kraftstofftemperatursensor A - Eingangssignal zu hoch
+P0184	Kraftstofftemperatursensor A - zeitweilige Stromkreisunterbrechung
+P0185	Kraftstofftemperatursensor B - Fehlfunktion Stromkreis
+P0186	Kraftstofftemperatursensor B - Bereichs-/Funktionsfehler
+P0187	Kraftstofftemperatursensor B - Eingangssignal zu niedrig
+P0188	Kraftstofftemperatursensor B - Eingangssignal zu hoch
+P0189	Kraftstofftemperatursensor B - zeitweilige Stromkreisunterbrechungen
+P0190	Kraftstoffverteilerdrucksensor - Fehlfunktion Stromkreis
+P0191	Kraftstoffverteilerdrucksensor - Bereichs-/Funktionsfehler
+P0192	Kraftstoffverteilerdrucksensor - Eingangssignal zu niedrig
+P0193	Kraftstoffverteilerdrucksensor - Eingangsignal zu hoch
+P0194	Kraftstoffverteilerdrucksensor - zeitweilige Stromkreisunterbrechungen
+P0195	Motoröltemperatursensor- Fehlfunktion Stromkreis
+P0196	Motoröltemperatursensor - Bereichs/Funktionsfehler
+P0197	Motoröltemperatursensor - Eingangssignal zu niedrig
+P0198	Motoröltemperatursensor - Eingangssignal zu hoch
+P0199	Motoröltemperatursensor - zeitweilige Stromkreisunterbrechung
+P0200	Einspritzventil/düse - Fehlfunktion Stromkreis
+P0201	Einspritzventil/düse 1 - Fehlfunktion Stromkreis
+P0202	Einspritzventil/düse 2 - Fehlfunktion Stromkreis
+P0203	Einspritzventil/düse 3 - Fehlfunktion Stromkreis
+P0204	Einspritzventil/düse 4 - Fehlfunktion Stromkreis
+P0205	Einspritzventil/düse 5 - Fehlfunktion Stromkreis
+P0206	Einspritzventil/düse 6 - Fehlfunktion Stromkreis
+P0207	Einspritzventil/düse 7 - Fehlfunktion Stromkreis
+P0208	Einspritzventil/düse 8 - Fehlfunktion Stromkreis
+P0209	Einspritzventil/düse 9 - Fehlfunktion Stromkreis
+P0210	Einspritzventil/düse 10 - Fehlfunktion Stromkreis
+P0211	Einspritzventil/düse 11 - Fehlfunktion Stromkreis
+P0212	Einspritzventil/düse 12 - Fehlfunktion Stromkreis
+P0213	Kaltstartventil 1 - Fehlfunktion Stromkreis
+P0214	Kaltstartventil 2 - Fehlfunktion Stromkreis
+P0215	Kraftstoff Magnetabschaltventil - Fehlfunktion Stromkreis
+P0216	Kraftstoff Einspritzregelung - Fehlfunktion Stromkreis
+P0217	Motor-Überhitzung
+P0218	Getriebe-Überhitzung
+P0219	Motor-Überdrehzahl
+P0220	Drosselklappen-Potentiometer B/Fahrpedalsensor B - Fehlfunktion Stromkreis
+P0221	Drosselklappen-Potentiometer B/ Fahrpedalsensor B - Bereichs/Funktionsfehler
+P0222	Drosselklappen-Potentiometer B/ Fahrpedalsensor B - Eingangsignal zu niedrig
+P0223	Drosselklappen-Potentiometer B/Fahrpedalsensor B - Eingangssignal zu hoch
+P0224	Drosselklappen-Potentiometer B/Fahrpedalsensor B - Eingangssignal zu hoch
+P0225	Drosselklappen-Potentiometer C/ Fahrpedalsensor C - Fehlfunktion Stromkreis
+P0226	Drosselklappen-Potentiometer C/ Fahrpedalsensor C - Bereichs/Funktionsfehler
+P0227	Drosselklappen-Potentiometer C/ Fahrpedalsensor C - Eingangsignal zu niedrig
+P0228	Drosselklappen-Potentiometer C/ Fahrpedalsensor C - Eingangsignal zu hoch
+P0229	Drosselklappen-Potentiometer C/Fahrpedalsensor C - zeitweilige Stromkreisunterbrechungen
+P0230	Kraftstoffpumpenrelais - Fehlfunktion Stromkreis
+P0231	Kraftstoffpumpenrelais - Signal zu niedrig
+P0232	Kraftstoffpumpenrelais - Signal zu hoch
+P0233	Kraftstoffpumpenrelais - zeitweilige Stromkreisunterbrechungen
+P0234	Motoraufladung - Grenzwert überschritten
+P0235	Motoraufladung - Grenzwert nicht erreicht
+P0236	Saugrohrdrucksensor A, Turboladersystem -Bereichs/Funktionsfehler
+P0237	Saugrohrdrucksensor A, Turboladersystem - Eingangssignal zu niedrig
+P0238	Saugrohrdrucksensor A, Turboladersystem - Eingangssignal zu hoch
+P0239	Saugrohdrucksensor B, Turboladersystem - Fehlfunktion Stromkreis
+P0240	Saugrohrdrucksensor B, Turboladersystem - Bereichs/Funktionsfehler
+P0241	Saugrohrdrucksensor B, Turboladersystem - Eingangsignal zu niedrig
+P0242	Saugrohrdrucksensor B, Turboladersystem - Eingangssignal zu hoch
+P0243	Ladedruck-Regelventil A - Fehlfunktion Stromkreis
+P0244	Ladedruck-Regelventil A - Bereichs/Funktionsfehler
+P0245	Ladedruck-Regelventil A - Signal zu niedrig
+P0246	Ladedruck-Regelventil A - Signal zu hoch
+P0247	Ladedruck-Regelventil B - Fehlfunktion Stromkreis
+P0248	Ladedruck-Regelventil B - Bereichs/Funktionsfehler
+P0249	Ladedruck-Regelventil B - Signal zu niedrig
+P0250	Ladedruck-Regelventil B - Signal zu hoch
+P0251	Einspritzpumpe A, Rotor/Nockenring - Fehlfunktion Stromkreis
+P0252	Einspritzpumpe A, Rotor/Nockenring - Bereichs/Funktionsfehler
+P0253	Einspritzpumpe A, Rotor/Nockenring - Signal zu niedrig
+P0254	Einspritzpumpe A, Rotor/Nockenring - Signal zu hoch
+P0255	Einspritzpumpe A, Rotor/Nockenring - zeitweilige Stromkreisunterbrechungen
+P0256	Einspritzpumpe B, Rotor/Nockenring - Fehlfunktion Stromkreis
+P0257	Einspritzpumpe B, Rotor/Nockenring - Bereichs/Funktionsfehler
+P0258	Einspritzpumpe B, Rotor/Nockenring - Signal zu niedrig
+P0259	Einspritzpumpe B, Rotor/Nockenring - Signal zu hoch
+P0260	Einspritzpumpe B, Rotor/Nockenring - zeitweilige Stromkreisunterbrechungen
+P0261	Einspritzventil/düse 1 - Signal zu niedrig
+P0262	Einspritzventil/düse 1 - Signal zu hoch
+P0263	Zylinder 1 - Fehler Zylinderleistung/Zylinderausgleich
+P0264	Einspritzventil/düse 2 - Signal zu niedrig
+P0265	Einspritzventil/düse 2 - Signal zu hoch
+P0266	Zylinder 2 - Fehler Zylinderleistung/Zylinderausgleich
+P0267	Einspritzventil/düse 3 - Signal zu niedrig
+P0268	Einspritzventil/düse 3 - Signal zu hoch
+P0269	Zylinder 3 - Fehler Zylinderleistung/Zylinderausgleich
+P0270	Einspritzventil/düse 4 - Signal zu niedrig
+P0271	Einspritzventil/düse 4 - Signal zu hoch
+P0272	Zylinder 4 - Fehler Zylinderleistung/Zylinderausgleich
+P0273	Einspritzventil/düse 5 - Signal zu niedrig
+P0274	Einspritzventil/düse 5 - Signal zu hoch
+P0275	Zylinder 5 - Fehler Zylinderleistung/Zylinderausgleich
+P0276	Einspritzventil/düse 6 - Signal zu niedrig
+P0277	Einspritzventil/düse 6 - Signal zu hoch
+P0278	Zylinder 6 - Fehler Zylinderleistung/Zylinderausgleich
+P0279	Einspritzventil/düse 7 - Signal zu niedrig
+P0280	Einspritzventil/düse 7 - Signal zu hoch
+P0281	Zylinder 7 - Fehler Zylinderleistung/Zylinderausgleich
+P0282	Einspritzventil/düse 8 - Signal zu niedrig
+P0283	Einspritzventil/düse 8 - Signal zu hoch
+P0284	Zylinder 8 - Fehler Zylinderleistung/Zylinderausgleich
+P0285	Einspritzventil/düse 9 - Signal zu niedrig
+P0286	Einspritzventil/düse 9 - Signal zu hoch
+P0287	Zylinder 9 - Fehler Zylinderleistung/Zylinderausgleich
+P0288	Einspritzventil/düse 10 - Signal zu niedrig
+P0289	Einspritzventil/düse 10 - Signal zu hoch
+P0290	Zylinder 10 - Fehler Zylinderleistung/Zylinderausgleich
+P0291	Einspritzventil/düse 11 - Signal zu niedrig
+P0292	Einspritzventil/düse 11 - Signal zu hoch
+P0293	Zylinder 11 - Fehler Zylinderleistung/Zylinderausgleich
+P0294	Einspritzventil/düse 12 - Signal zu niedrig
+P0295	Einspritzventil/düse 12 - Signal zu hoch
+P0296	Zylinder 12 - Fehler Zylinderleistung/Zylinderausgleich
+P0297	Unzulässige Fahrzeuggeschwindigkeit
+P0298	Motoröltemperatur zu hoch
+P0299	Turbolader/Kompressor - geringer Ladedruck
+P0300	Beliebiger/mehrere Zylinder - Fehlzündung festgestellt
+P0301	Zylinder 1 - Fehlzündung festgestellt
+P0302	Zylinder 2 - Fehlzündung festgestellt
+P0303	Zylinder 3 - Fehlzündung festgestellt
+P0304	Zylinder 4 - Fehlzündung festgestellt
+P0305	Zylinder 5 - Fehlzündung festgestellt
+P0306	Zylinder 6 - Fehlzündung festgestellt
+P0307	Zylinder 7 - Fehlzündung festgestellt
+P0308	Zylinder 8 - Fehlzündung festgestellt
+P0309	Zylinder 9 - Fehlzündung festgestellt
+P0310	Zylinder 10 - Fehlzündung festgestellt
+P0311	Zylinder 11 - Fehlzündung festgestellt
+P0312	Zylinder 12 - Fehlzündung festgestellt
+P0313	Fehlzündung Ermitteltes Niedriges Kraftstoff-Niveau
+P0314	Fehlzündung ermitteltes Zylinder nicht spezifisch
+P0315	Kurbelwelle Navigationsanlage - Veränderung Nicht Erlernt
+P0316	Fehlstart beim Start erkannt (erste 1000 Umdrehungen)
+P0317	Rauhe Straße Hardware Nicht Vorhanden
+P0318	Rauher Straße Sensor A - Stromkreis
+P0319	Rauher Straße Sensor B - Stromkreis
+P0320	Zünd-/Verteiler-Motordrehzahl-Einlass - Schaltkreisstörung
+P0321	Zünd-/Verteiler-Motordrehzahl-Einlass - Bereich/Leistung Schaltkreis
+P0322	Zünd-/Verteiler-Motordrehzahl-Einlass - Kein Signal
+P0323	Zünd-/Verteiler-Motordrehzahl-Einlass - Schaltkreis unterbrochen
+P0324	\0\
+P0325	Klopfsensor 1 - Schaltkreis (Bank 2 oder Einzelsensor)
+P0326	Klopfsensor 1 - Bereich/Leistung Schaltkreis (Bank 2 oder Einzelsensor)
+P0327	Klopfsensor 1 - Schaltkreis Niedrig (Bank 2 oder Einzelsensor)
+P0328	Klopfsensor 1 - Schaltkreis Hoch (Bank 2 oder Einzelsensor)
+P0329	Klopfsensor 1 - Schaltkreis unterbrochen (Bank 2 oder Einzelsensor)
+P0330	Klopfsensor 2 - Schaltkreis (Bank 2)
+P0331	Klopfsensor 2 - Bereich/Leistung Schaltkreis (Bank 2)
+P0332	Klopfsensor 2 - Schaltkreis Niedrig (Bank 2)
+P0333	Klopfsensor 2 - Schaltkreis Hoch (Bank 2)
+P0334	Klopfsensor 2 - Schaltkreis unterbrochen (Bank 2)
+P0335	Kurbelwellen-Positionssensor A - Schaltkreisstörung
+P0336	Kurbelwellen-Positionssensor A - Bereich/Leistung Schaltkreis
+P0337	Kurbelwellen-Positionssensor A - Schaltkreis Niedrig
+P0338	Kurbelwellen-Positionssensor A - Schaltkreis Hoch
+P0339	Kurbelwinkelsensor - zeitwellige Stromkreisunterbrechungen
+P0340	Nockenwellenpositionssensor A, Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0341	Nockenwellenpositionssensor A, Zylinderreihe 1 - Bereichs/Funktionsfehler
+P0342	Nockenwellenpositionssensor A, Zylinderreihe 1 - Eingangssignal zu niedrig
+P0343	Nockenwellenpositionssensor A, Zylinderreihe 1 - Eingangssignal zu hoch
+P0344	Nockenwellenpositionssensor A, Zylinderreihe 1 - zeitweilige Stromkreisunterbrechungen
+P0345	Nockenwellenpositionssensor A, Zylinderreihe 2 - Fehlfunktion Stromkreis
+P0346	Nockenwellenpositionssensor A, Zylinderreihe 2 - Bereichs/Funktionsfehler
+P0347	Nockenwellenpositionssensor A, Zylinderreihe 2 - Eingangssignal zu niedrig
+P0348	Nockenwellenpositionssensor A, Zylinderreihe 2 - Eingangssignal zu hoch
+P0349	Nockenwellenpositionssensor A, Zylinderreihe 2 - zeitweilige Stromkreisunterbrechungen
+P0350	Zündspule, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0351	Zündspule A, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0352	Zündspule B, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0353	Zündspule C, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0354	Zündspule D, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0355	Zündspule E, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0356	Zündspule F, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0357	Zündspule G, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0358	Zündspule H, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0359	Zündspule I, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0360	Zündspule J, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0361	Zündspule K, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0362	Zündspule L, Primär/Sekundärwicklung - Fehlfunktion Stromkreis
+P0363	Fehlzündung festgestellt - Kraftstoffversorgung deaktiviert
+P0364	\0\
+P0365	Nockenwellenpositionssensor B, Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0366	Nockenwellenpositionssensor B, Zylinderreihe 1 - Bereichs/Funktionsfehler Stromkreis
+P0367	Nockenwellenpositionssensor B, Zylinderreihe 1 - Eingangssignal zu niedrig
+P0368	Nockenwellenpositionssensor B, Zylinderreihe 1 - Eingangssignal zu hoch
+P0369	Nockenwellenpositionssensor B, Zylinderreihe 1 - zeitweilige Stromkreisunterbrechung
+P0370	Zündzeitpunktbezug, hohe Signalauflösung A - Fehlfunktion
+P0371	Zündzeitpunktbezug, hohe Signalauflösung A - Signalrate zu hoch
+P0372	Zündzeitpunktbezug, hohe Signalauflösung A - Signalrate zu niedrig
+P0373	Zündzeitpunktbezug, Hohe Signalauflösung A - zeitweilig unterbrochenes Signal
+P0374	Zündzeitpunktbezug, hohe Signalauflösung A - keine Signale
+P0375	Zündzeitpunktbezug, hohe Signalauflösung B - Fehlfunktion
+P0376	Zündzeitpunktbezug, hohe Signalauflösung B - Signalrate zu hoch
+P0377	Zündzeitpunktbezug, hohe Signalauflösung B - Signalrate zu niedrig
+P0378	Zündzeitpunktbezug, Hohe Signalauflösung B - zeitweilig unterbrochenes Signal
+P0379	Zündzeitpunktbezug, hohe Signalauflösung B - keine Signale
+P0380	Glühkerzen, Stromkreis A - Fehlfunktion
+P0381	Vorglühkontrollleuchte - Fehlfunktion Stromkreis
+P0382	Glühkerzen, Stromkreis B - Fehlfunktion
+P0383	\0\
+P0384	\0\
+P0385	Kurbelwinkelsensor B - Fehlfunktion Stromkreis
+P0386	Kurbelwinkelsensor B - Bereichs/Funktionsfehler
+P0387	Kurbelwinkelsensor B - Eingangssignal zu niedrig
+P0388	Kurbelwinkelsensor B - Eingangssignal zu hoch
+P0389	Kurbelwinkelsensor B - zeitweilige Stromkreisunterbrechung
+P0390	Nockenwellenpositionssensor B, Zylinderreihe 2 - Fehlfuntion Stromkreis
+P0391	Nockenwellenpositionssensor B, Zylinderreihe 2 - Bereichs/Funktionsfehler Stromkreis
+P0392	Nockenwellenpositionssensor B, Zylinderreihe 2 - Eingangssignal zu niedrig
+P0393	Nockenwellenpositionssensor B, Zylinderreihe 2 - Eingangssignal zu hoch
+P0394	Nockenwellenpositionssensor B, Zylinderreihe 2 - zeitweilige Stromkreisunterbrechung
+P0395	\0\
+P0396	\0\
+P0397	\0\
+P0398	\0\
+P0399	\0\
+P0400	Abgasrückführung - Fehlfunktion Flussrate
+P0401	Abgasrückführung - unzureichende Flussrate festgestellt
+P0402	Abgasrückführung - übermäßige Flussrate festgestellt
+P0403	Abgasrückführung - Fehlfunktion Stromkreis
+P0404	Abgasrückführung - Bereichs/Funktionsführung
+P0405	Abgasrückführungsventil Sensor A - Eingangssignal zu niedrig
+P0406	Abgasrückführungsventil Sensor A - Eingangssignal zu hoch
+P0407	Abgasrückführungsventil Sensor B - Eingangsignal zu niedrig
+P0408	Abgasrückführungsventil Sensor B - Eingangsignal zu hoch
+P0409	Abgasrückführungssensor A - Fehlfunktion Stromkreis
+P0410	Sekundärlufteinblasung - Fehlfunktion
+P0411	Sekundärlufteinblasung - falsche Flussrate festgestellt
+P0412	Sekundärluft-Regelventil A - Fehlfunktion Stromkreis
+P0413	Sekundärluft-Regelventil A - offener Stromkreis
+P0414	Sekundärluft-Regelventil A - Kurzschluss
+P0415	Sekundärluft-Regelventil B - Fehlfunktion Stromkreis
+P0416	Sekundärluft-Regelventil B - offener Stromkreis
+P0417	Sekundärluft-Regelventil B - Kurzschluss
+P0418	Sekundärluftpumpenrelais A - Fehlfunktion Stromkreis
+P0419	Sekundärluftpumpenrelais B - Fehlfunktion Stromkreis
+P0420	Katalysatoranlage, Zylinderreihe 1 - Wirkungsgrad unter Schwellenwert
+P0421	Startkatalysator, Zylinderreihe 1 - Wirkungsgrad unter Schwellwert
+P0422	Hauptkatalysator, Zylinderreihe 1 - Wirkungsgrad unter Schwellwert
+P0423	Beheizter Katalysator, Zylinderreihe 1 - Wirkungsgrad unter Schwellenwert
+P0424	Beheizter Katalysator, Zylinderreihe 1 -Temperatur unter Schwellenwert
+P0425	Katalysator 1 Temperatursensor, Zylinderreihe 1
+P0426	Katalysator 1 Temperatursensor, Zylinderreihe1 Bereichs/Funktionsfehler
+P0427	Katalysator 1 Temperatursensor, Zylinderreihe1 Eingangssignal zu niedrig
+P0428	Katalysator 1 Temperatursensor, Zylinderreihe Eingangsignal zu hoch
+P0429	Katalysator-Heizelement, Zylinderreihe 1 - Fehlfunktion Regelstromkreis
+P0430	Katalysatoranlage, Zylinderreihe 2 - Wirkungsgrad unter Schwellenwert
+P0431	Startkatalysator, Zylinderreihe 2 - Wirkungsgrad unter Schwellwert
+P0432	Hauptkatalysator, Zylinderreihe 2 - Wirkungsgrad unter Schwellwert
+P0433	Beheizter Katalysator, Zylinderreihe 2 - Wirkungsgrad unter Schwellenwert
+P0434	Beheizter Katalysator, Zylinderreihe 2 - Temperatur unter Schwellenwert
+P0435	Katalysator 1, Zylinderreihe 2
+P0436	Katalysator 1 Temperatursensor, Zylinderreihe 2 - Bereichs/Funktionsfehler
+P0437	Katalysator 1 Temperatursensor, Zylinderreihe 2 - Eingangssignal zu niedrig
+P0438	Katalysator 1 Temperatursensor, Zylinderreihe 2 - Eingangssignal zu hoch
+P0439	Katalysator-Heizelement, Zylinderreihe 2 - Fehlfunktion Regelstromkreis
+P0440	Kraftstoffdampf - Auffangsystem- Fehlfunktion
+P0441	Kraftstoffdampf - Auffangsystem-falsche Flussrate festgestellt
+P0442	Kraftstoffdampf - Auffangsystem- kleine Undichtigkeit festgestellt
+P0443	Aktivkohlefilter Magnetventil - Fehlfunktion Stromkreis
+P0444	Aktivkohlefilter Magnetventil - offener Stromkreis
+P0445	Aktivkohlefilter Magnetventil - Kurzschluss
+P0446	Kraftstoffdampf Auffangssystem, Belüftungsregelung - Fehlfunktion Stromkreis
+P0447	Kraftstoffdampf Auffangsystem, Belüftungsregelung - offener Stromkreis
+P0448	Kraftstoffdampf Auffangssystem, Belüftungsregelung - Kurzschluss
+P0449	Kraftstoffdampf Auffangssytem, Entlüftungsventil - Fehlfunktion Stromkreis
+P0450	Kraftstofferdunstung Drucksensor- Fehlfunktion Stromkreis
+P0451	Kraftstoffverdunstung Drucksensor - Bereichs/Funktionsfehler
+P0452	Kraftstoffverdunstung Drucksensor - Eingangssignal zu niedrig
+P0453	Kraftstoffverdunstung Drucksensor - Eingangssignal zu hoch
+P0454	Kraftstoffverdunstung Drucksensor - zeitweilige Stromkreisunterbrechung
+P0455	Kraftstoffdampf Auffangssystem - große Undichtigkeit festegestellt
+P0456	Kraftstoffdampf Auffangsystem - kleinste Undichtigkeit festgestellt
+P0457	Kraftstoffdampf Auffangssystem- Undichtigkeit festgestellt (Tankdeckel undicht/fehlt)
+P0458	Krafftstoffdampf Auffangssystem, Aktivkohlefilter Magnetventil - Signal zu niedrig
+P0459	Krafftstoffdampf Auffangssystem, Aktivkohlefilter Magnetventil - Signal zu hoch
+P0460	Kraftstoffstandsensor - Fehlfunktion Stromkreis
+P0461	Kraftstoffstandsensor - Bereichs/Funktionsfehler
+P0462	Kraftstoffstandsensor - Eingangssignal zu niedrig
+P0463	Kraftstoffstandsensor - Eingangssignal zu hoch
+P0464	Kraftstoffstandsensor - zeitweilige Stromkreisunterbrechungen
+P0465	Strömungssensor Aktivkohlefilter Magnetventil - Fehlfunktion Stromkreis
+P0466	Strömungssensor Aktivkohlefilter Magnetventil - Bereichs/Funktionsfehler
+P0467	Strömungssensor Aktivkohlefilter Magnetventil - Eingangssignal zu niedrig
+P0468	Strömungssensor Aktivkohlefilter Magnetventil - Eingangssignal zu hoch
+P0469	Strömungssensor Aktivkohlefilter Magnetventil - zeitweilige Stromkreisunterbrechung
+P0470	Abgasdrucksensor - Fehlfunktion Stromkreis
+P0471	Abgasdrucksensor - Bereichs/Funktionsfehler
+P0472	Abgasdrucksensor - Eingangssignal zu niedrig
+P0473	Abgasdrucksensor - Eingangssignal zu hoch
+P0474	Abgasdrucksensor - zeitweilige Stromkreisunterbrechungen
+P0475	Abgasdruckregelventil - Fehlfunktion Stromkreis
+P0476	Abgasdruckregelventil - Bereichs/Funktionsfehler
+P0477	Abgasdruckregelventil - Eingangssignal zu niedrig
+P0478	Abgasdruckregelventil - Eingangssignal zu hoch
+P0479	Abgasdruckregelventil - zeitweilige Stromkreisunterbrechungen
+P0480	Kühlerlüftermotor 1 - Fehlfunktion Stromkreis
+P0481	Kühlerlüftermotor 2 - Fehlfunktion Stromkreis
+P0482	Kühlerlüftermotor 3 - Fehlfunktion Stromkreis
+P0483	Kühlerlüftermotor, Plausibilitätsprüfung - Fehlfunktion
+P0484	Kühlerlüftermotor - übermäßige Stromaufnahme
+P0485	Kühlerlüftermotor, Versorgungsspannung / Masse - Fehlfunktion Stromkreis
+P0486	Abgasrückführungsventil Stellungssensor B - Fehlfunktion Stromkreis
+P0487	Abgasrückführung, Drosselklappenregelung - Fehlfunktion Stromkreis
+P0488	Abgasrückführung, Drosselklappenregelung - Fehlfunktion Stromkreis
+P0489	Abgasrückführung - Signal zu niedrig
+P0490	Abgasrückführung - Signal zu hoch
+P0491	Sekundärlufteinblasung, Zylinderreihe 1 - Fehlfunktion
+P0492	Sekundärlufteinblasung, Zylinderreihe 2 - Fehlfunktion
+P0493	Überdrehzahl Kühlerlüftermotor (Kupplung blockiert)
+P0494	Drehzahl Kühlerlüftermotor - zu niedrig
+P0495	Drehzahl Kühlerlüftermotor - zu hoch
+P0496	Kraftstoffdampf Auffangssystem - übermäßig Dampfabsaugung
+P0497	Kraftstoffdampf Auffangssystem - geringe Dampfabsaugung
+P0498	Kraftstoffdampf Auffangssystem, Belüftungsregelung - Signal zu niedrig
+P0499	Kraftstoffdampf Auffangssystem, Belüftungsregelung - Signal zu hoch
+P0500	Fahrgeschwindigkeitssensor - Fehlfunktion Stromkreis
+P0501	Fahrgeschwindigkeitssensor - Bereichs/Funktionsfehler
+P0502	Fahrgeschwindigkeitssensor - Eingangssignal zu niedrig
+P0503	Fahrgeschwindigkeitssensor - Eingangssignal zeitweilig unterbrochen/zu hoch
+P0504	Bremsschalter - Bezug A/B
+P0505	Leerlaufregelung - Fehlfunktion
+P0506	Leerlaufregelung - Drehzahl unter Sollwert
+P0507	Leerlaufregelung - Drehzahl über Sollwert
+P0508	Leerlaufluftregelung - Signal zu niedrig
+P0509	Leerlaufluftregelung - Signal zu hoch
+P0510	Leerlaufschalter - Fehlfunktion Stromkreis
+P0511	Leerlaufluftregelung - Fehlfunktion Stromkreis
+P0512	Stromkreis Anforderungssignal Anlasser - Fehlfunktion
+P0513	Falscher Wegfahrsperren - Schlüssel
+P0514	Batterie Temperatursensor - Bereichs/Funktionsfehler Stromkreis
+P0515	Batterie Temperatursensor - Fehlfunktion Stromkreis
+P0516	Batterie Temperatursensor - Signal zu niedrig
+P0517	Batterie Temperatursensor - Signal zu hoch
+P0518	Leerlaufluftregelung - zeitweilige Stromkreisunterbrechung
+P0519	Leerlaufluftregelung - Funktionsfehler Stromkreis
+P0520	Motoröldrucksensor/schalter - Fehlfunktion Stromkreis
+P0521	Motoröldrucksensor/schalter - Bereichs/Funktionsfehler
+P0522	Motoröldrucksensor/schalter - Spannung zu niedrig
+P0523	Motoröldrucksensor/schalter - Spannung zu hoch
+P0524	Motoröldruck zu niedrig
+P0525	Geschwindigkeitsregelsystem, Stellgliedsteuerung - Bereichs-/Funktionsfehler Stromkreis
+P0526	Kühlerlüftermotor-Drehzahlsensor - Fehlfunktion Stromkreis
+P0527	Kühlerlüftermotor-Drehzahlsensor - Bereichs-/Funktionsfehler Stromkreis
+P0528	Kühlerlüftermotor-Drehzahlsensor - kein Signal
+P0529	Kühlerlüftermotor-Drehzahlsensor - zeitweilige Stromkreisunterbrechung
+P0530	Klimaanlage Kältemitteldrucksensor - Fehlfunktion Stromkreis
+P0531	Klimaanlage Kältemitteldrucksensor - Bereichs/Funktionsfehler
+P0532	Kühlerlüftermotor Drehzahlsensor - Eingangssignal zu niedrig
+P0533	Kühlerlüftermotor Drehzahlsensor - Eingangssignal zu hoch
+P0534	Kältemittelverlust
+P0535	Klimaverdampfer Temperatursensor - Fehlfunktion Stromkreis
+P0536	Klimaverdampfer Temperatursensor - Bereichs-/Funktionsfehler Stromkreis
+P0537	Klimaverdampfer Temperatursensor - Signal zu niedrig
+P0538	Klimaverdampfer Temperatursensor - Signal zu hoch
+P0539	Klimaverdampfer Temperatursensor - zeitweilige Stromkreisunterbrechungen
+P0540	Ansaugluftheizer A - Fehlfunktion Stromkreis
+P0541	Ansaugluftheizer A - Signal zu niedrig
+P0542	Ansaugluftheizer A - Signal zu hoch
+P0543	Ansaugluftheizer A - offener Stromkreis
+P0544	AGR Temperatursensor, Zylinderreihe 1 - Fehlfunktion Stromkreis
+P0545	AGR Temperatursensor, Zylinderreihe 1 - Eingangssignal zu niedrig
+P0546	AGR Temperatursensor, Zylinderreihe 1 - Eingangssignal zu hoch
+P0547	Abgas Temperatursensor, Zylinderreihe 2 Sensor 1 - Fehlfunktion Stromkreis
+P0548	Abgas Temperatursensor, Zylinderreihe 2 Sensor 1 - Signal zu niedrig
+P0549	Abgas Temperatursensor, Zylinderreihe 2 Sensor 1 - Signal zu hoch
+P0550	Servolenkungsdrucksensor/schalter - Fehlfunktion Stromkreis
+P0551	Servolenkungsdrucksensor/schalter - Bereichs/Funktionsfehler
+P0552	Servolenkungsdrucksensor/schalter - Eingangssignal zu niedrig
+P0553	Servolenkungsdrucksensor/schalter - Eingangssignal zu hoch
+P0554	Servolenkungsdrucksensor/schalter - zeitweilige Stromkreisunterbrechungen
+P0555	Bremskraftverstärker Drucksensor - Fehlfunktion- Stromkreis
+P0556	Bremskraftverstärker Drucksensor - Bereichs/Funktionsfehler Stromkreis
+P0557	Bremskraftverstärker Drucksensor - Eingangssignal zu niedrig
+P0558	Bremskraftverstärker Drucksensor - Eingangssignal zu hoch
+P0559	Bremskraftverstärker Drucksensor - zeitweilige Stromkreisunterbrechung
+P0560	Systemspannung - Fehlfunktion
+P0561	Systemspannung - nicht konstant
+P0562	Systemspannung - zu niedrig
+P0563	Systemspannung - zu hoch
+P0564	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal A - Fehlfunktion Stromkreis
+P0565	Geschwindigkeitsregelung Hauptschalter, Signal EIN (ON) - Fehlfunktion
+P0566	Geschwindigkeitsregelung Hauptschalter, Signal AUS (OFF) - Fehlfunktion
+P0567	Geschwindigkeitsregelung Wählschalter, Signal WIEDEREINREGELN (RESUME) - Fehlfunktion
+P0568	Geschwindigkeitsregelung Hauptschalter, Signal SPEICHER (SET) - Fehlfunktion
+P0569	Geschwindigkeitsregelung Wählschalter, Signal VERZÖGERN (COAST) - Fehlfunktion
+P0570	Geschwindigkeitsregelsystem, Signal Fahrpedalsensor - Fehlfunktion
+P0571	Geschwindigkeitsregelungs/Bremspedal A - Fehlfunktion Stromkreis
+P0572	Geschwindigkeitsregelungs/Bremspedalschalter A - Signal zu niedrig
+P0573	Geschwindigkeitsreglungs/Bremspedalschalter A - Signal zu hoch
+P0574	Geschwindigkeitsregelsystem - Fahrgeschwindigkeit zu hoch
+P0575	Geschwindigkeitsregelsystem - Fehlfunktion Eingangstromkreis
+P0576	Geschwindigkeitsregelsystem - Eingangssignal zu niedrig
+P0577	Geschwindigkeitsregelsystem - Eingangsignal zu hoch
+P0578	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal A - keine Signaländerung im Stromkreis
+P0579	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal A - Bereichs/Funktionsfehler Stromkreis
+P0580	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal A - Signal zu niedrig
+P0581	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal A - Signal zu hoch
+P0582	Geschwindigkeitsregelsystem, Unterdruckregelung - offener Stromkreis
+P0583	Geschwindigkeitsregelsystem, Unterdruckregelung - Signal zu niedrig
+P0584	Geschwindigkeitsregelsystem, Unterdruckregelung - Signal zu hoch
+P0585	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignale A/B - Bezugsfehler
+P0586	Geschwindigkeitsregelsystem, Belüftungsregelung - offener Stromkreis
+P0587	Geschwindigkeitsregelsystem, Belüftungsregelung - Signal zu niedrig
+P0588	Geschwindigkeitsregelsystem, Belüftungsregelung - Signal zu hoch
+P0589	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangsignal B - Fehlfunktion Stromkreis
+P0590	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal B - keine Signaländerung im Stromkreis
+P0591	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal B - Bereichs/Funktionsfehler Stromkreis
+P0592	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal B - Signal zu niedrig
+P0593	Geschwindigkeitsregelsystem, Multifunktionsschalter Eingangssignal B - Signal zu hoch
+P0594	Geschwindigkeitsregelsystem, Stellgliedsteuerung - offener Stromkreis
+P0595	Geschwindigkeitsregelsystem, Stellgliedsteuerung - Signal zu niedrig
+P0596	Geschwindigkeitsregelsystem, Stellgliedsteuerung - Signal zu hoch
+P0597	Thermostatheizregelung - offener Stromkreis
+P0598	Thermostatheizregelung - Signal zu niedrig
+P0599	Thermostatheizregelung - Signal zu hoch
+P0600	CAN Datenbus - Fehlfunktion
+P0601	Motorsteuergerät - Speicher Prüfsummenfehler
+P0602	Motorsteuergerät - Programmierungsfehler
+P0603	Motorsteuergerät - Fehler Dauerspeicher (KAM)
+P0604	Motorsteuergerät Fehler RAM - Speicher
+P0605	Motorsteuergerät Fehler ROM-Speicher
+P0606	Motorsteuergerät/Antriebsstrangsteuergerät - Fehlfunktion Mikroprozessor
+P0607	Steuergerät - beeinträchtigte Funktion
+P0608	Motorsteuergerät ,Ausgangssignal Fahrgeschwindigkeitssensor A - Fehlfunktion
+P0609	Motorsteuergerät, Ausgangssignal Fahrgeschwindigkeitssensor B - Fehlfunktion
+P0610	Steuergerät - Fehler Fahrzeugoptionen
+P0611	Einspritz-Steuergerät - beeinträchtigte Funktion
+P0612	Einspritz-Steuergerät - Stromkreis Steuerrelais
+P0613	Getriebesteuergerät - Rechnerfehler
+P0614	Motorsteuergerät/Getriebesteuergerät - keine Übereinstimmung
+P0615	Anlasserrelais - Fehlfunktion Stromkreis
+P0616	Anlasserrelais - Signal zu niedrig
+P0617	Anlasserrelais - Signal zu hoch
+P0618	Alternativkraftstoff Steuergerät - Fehler Dauerspeicher (KAM)
+P0619	Alternativkraftstoff-Steuergerät - Fehler RAM-/ROM-Speicher
+P0620	Generator, Regelung - Fehlfunktion Stromkreis
+P0621	Ladekontrollleuchte - Fehlfunktion Stromkreis
+P0622	Generator, Feldstärkeregelung - Fehlfunktion Stromkreis
+P0623	Ladekontrollleuchte - Fehlfunktion Stromkreis
+P0624	Tankdeckel-Kontrollleuchte - Fehlfunktion Stromkreis
+P0625	Generatorfeldwicklungsklemme - Signal zu niedrig
+P0626	Generatorfeldwicklungsklemme - Signal zu hoch
+P0627	Kraftstoffpumpenregelung - offener Stromkreis
+P0628	Kraftstoffpumpenregelung - Signal zu niedrig
+P0629	Kraftstoffpumpenregelung - Signal zu hoch
+P0630	VIN nicht einprogrammiert oder nicht erkannt (keine Übereinstimmung) - Motorsteuergerät/Antriebssteuergerät
+P0631	VIN nicht einprogrammiert oder nicht erkannt (keine Übereinstimmung) - Getriebesteuergerät
+P0632	Kilometerzähler nicht programmiert - Motorsteuergerät/Antriebsstrangsteuergerät
+P0635	Servolenkungsregelung - Fehlfunktion Stromkreis
+P0636	Servolenkungsregelung - Signal zu niedrig
+P0637	Servolenkungsregelung - Signal zu hoch
+P0638	Drosselklappenregelung, Zylinderreihe 1 - Bereichs/Funktionsfehler
+P0639	Drosselklappenregelung, Zylinderreihe 2 - Bereichs/Funktionsfehler
+P0640	Ansaugluftheizer-Regelung - Fehlfunktion Stromkreis
+P0641	Bezugsspannung Sensor A - offener Stromkreis
+P0642	Motorsteuergerät, Klopfregelung - defekt
+P0643	Bezugsspannung Sensor A - zu hoch
+P0644	Fahrer-Infodisplay, serielle Datenübertragung - Fehlfunktion Stromkreis
+P0645	Klimakompressorkupplungsrelais
+P0646	Klimakompressorkupplungsrelais - Signal zu niedrig
+P0647	Klimakompressorkupplungsrelais - Signal zu hoch
+P0648	Wegfahrsperren-Kontrollleuchte - Fehlfunktion Stromkreis
+P0649	Geschwindigkeitsregelungs-Kontrollleuchte - Stromkreis
+P0650	Motorstörungswarnleuchte - Fehlfunktion Stromkreis
+P0651	Bezugsspannung Sensor B - offener Stromkreis
+P0652	Bezugsspannung Sensor B - zu niedrig
+P0653	Bezugsspannung Sensor B - zu hoch
+P0654	Motordrehzahl, Ausgangssignal - Fehlfunktion Stromkreis
+P0655	Ausgangssignal Motorüberhitzungswarnleuchte - Fehlfunktion Stromkreis
+P0656	Ausgangssignal Kraftstoffstand - Fehlfunktion Stromkreis
+P0657	Versorgungsspannung Stellglied - offener Stromkreis
+P0658	Versorgungsspannung Stellglied - zu niedrig
+P0659	Versorgungsspannung Stellglied - zu hoch
+P0660	Saugrohrumschaltung-Magnetventil, Zylinderreihe 1 - offener Stromkreis
+P0661	Saugrohrumschaltung-Magnetventil, Zylinderreihe 1 - Signal zu niedrig
+P0662	Saugrohrumschaltung-Magnetventil, Zylinderreihe 1 - Signal zu hoch
+P0663	Saugrohrumschaltung-Magnetventil, Zylinderreihe 2 - offener Stromkreis
+P0664	Saugrohrumschaltung-Magnetventil, Zylinderreihe 2 - Signal zu niedrig
+P0665	Saugrohrumschaltung-Magnetventil, Zylinderreihe 2 - Signal zu hoch
+P0666	Sensor interne Gerätetemperatur im Antriebsstrang/Motor/Getriebesteuergerät - Fehlfunktion Stromkreis
+P0667	Sensor interne Gerätetemperatur im Antriebsstrang/Motor/Getriebesteuergerät - Bereichs/Funktionsfehler
+P0668	Sensor interne Gerätetemperatur im Antriebsstrang/Motor/Getriebesteuergerät - Signal zu niedrig
+P0669	Sensor interne Gerätetemperatur im Antriebsstrang/Motor/Getriebesteuergerät - Signal zu hoch
+P0670	Glühkerzen-Steuergerät - Fehlfunktion Stromkreis
+P0671	Glühkerze, Zylinder 1 - Fehlfunktion Stromkreis
+P0672	Glühkerze, Zylinder 2 - Fehlfunktion Stromkreis
+P0673	Glühkerze, Zylinder 3 - Fehlfunktion Stromkreis
+P0674	Glühkerze, Zylinder 4 - Fehlfunktion Stromkreis
+P0675	Glühkerze, Zylinder 5 - Fehlfunktion Stromkreis
+P0676	Glühkerze, Zylinder 6 - Fehlfunktion Stromkreis
+P0677	Glühkerze, Zylinder 7 - Fehlfunktion Stromkreis
+P0678	Glühkerze, Zylinder 8 - Fehlfunktion Stromkreis
+P0679	Glühkerze, Zylinder 9 - Fehlfunktion Stromkreis
+P0680	Glühkerze, Zylinder 10 - Fehlfunktion Stromkreis
+P0681	Glühkerze, Zylinder 11 - Fehlfunktion Stromkreis
+P0682	Glühkerze, Zylinder 12 - Fehlfunktion Stromkreis
+P0683	Kommunikation Glühkerzen/Motor/ Antriebsstrangsteuergerät
+P0684	Kommunikation Glühkerzen/Motor/ Antriebsstrangsteuergerät - Bereichs-/Funktionsfehler
+P0685	Versorgungsrelais Motor/-Antriebsstrangsteuergerät - offener Stromkreis
+P0686	Versorgungsrelais Motor/ Antriebsstrangsteuergerät - Signal zu niedrig
+P0687	Motorsteuerungsrelais - Kurzschluss an Masse
+P0688	Motorsteuerungsrelais - Kurzschluss an Batterie Plus
+P0689	Versorgungsrelais Motor/Antriebsstrangsteuergerät - Signal zu niedrig im Stromkreis Relaisschaltzustandserfassung
+P0690	Versorgungsrelais Motor/Antriebsstrangsteuergerät - Signal zu hoch im Stromkreis Relaisschaltzustandserfassung
+P0691	Kühlerlüftermotor 1 - Kurzschluss an Masse
+P0692	Kühlerlüftermotor 1 - Kurzschluss an Batterie Plus
+P0693	Kühlerlüftermotor 2 - Kurzschluss an Masse
+P0694	Kühlerlüftermotor 2 - Kurzschluss an Batterie Plus
+P0695	Kühlerlüftermotor 3 - Kurzschluss an Masse
+P0696	Kühlerlüftermotor 3 - Kurzschluss an Batterie Plus
+P0697	Bezugsspannung Sensor C - offener Stromkreis
+P0698	Bezugsspannung Sensor C - zu niedrig
+P0699	Bezugsspannung Sensor C - zu hoch
+P0700	Getrieberegelung - Fehlfunktion
+P0701	Getrieberegelung - Bereichs/Funktionsfehler
+P0702	Getrieberegelung - elektrischer Teil
+P0703	Drehmomentwandler/Bremsschalter B - Fehlfunktion
+P0704	Kupplungspedalschalter - Fehlfunktion Stromkreis
+P0705	Fahrstufensensor/schalter, Eingangssignale für Fahrstufen P/R/N/D/L - Fehlfunktion
+P0706	Fahrstufensensor/schalter - Bereichs/Funktionsfehler
+P0707	Fahrstufensensor/schalter - Eingangssignal zu niedrig
+P0708	Fahrstufensensor/schalter - Eingangssignal zu hoch
+P0709	Fahrstufensensor/schalter - zeitweilige Stromkreisunterbrechung
+P0710	Getriebeöltemperatursensor - Fehlfunktion Stromkreis
+P0711	Getriebeöltemperatursensor - Bereichs/Fehlfunktion
+P0712	Getriebeöltemperatursensor - Eingangssignal zu niedrig
+P0713	Getriebeöltemperatursensor - Eingangssignal zu hoch
+P0714	Getriebeöltemperatursensor - zeitweilige Stromkreisunterbrechungen
+P0715	Turbinenwellendrehzahlsensor - Fehlfunktion Stromkreis
+P0716	Turbinenwellendrehzahlsensor - Bereichs/Funktionsfehler
+P0717	Turbinenwellendrehzahlsensor - kein Signal
+P0718	Turbinenwellendrehzahlsensor - zeitweilige Stromkreisunterbrechungen
+P0719	Drehmomentwandler/Bremsschalter B - Signal zu niedrig
+P0720	Fahrgeschwindigkeitssensor - Fehlfunktion
+P0721	Fahrgeschwindigkeitssensor - Bereichs/Funktionsfehler
+P0722	Fahrgeschwindigkeitssensor - kein Signal
+P0723	Fahrgeschwindigkeitssensor - zeitweilige Stromkreisunterbrechungen
+P0724	Drehmomentwandler/Bremsschalter B - Signal zu hoch
+P0725	Eingangssignal Motordrehzahl - Fehlfunktion Stromkreis
+P0726	Eingangssignal Motordrehzahl - Bereichs./Funktionsfehler
+P0727	Eingangssignal Motordrehzahl - kein Signal
+P0728	Eingangssignal Motordrehzahl - zeitweilige Stromkreisunterbrechungen
+P0729	Gang 6 - Übersetzungsverhältnis falsch
+P0730	Übersetzungsverhältnis falsch
+P0731	Gang 1 - Übersetzungsverhältnis falsch
+P0732	Gang 2 - Übersetzungsverhältnis falsch
+P0733	Gang 3 - Übersetzungsverhältnis falsch
+P0734	Gang 4 - Übersetzungsverhältnis falsch
+P0735	Gang 5 - Übersetzungsverhältnis falsch
+P0736	RW Gang - Übersetzungsverhältnis falsch
+P0737	Motordrehzahl Getriebesteuergerät - Ausgangsstromkreis
+P0738	Motordrehzahl Getriebesteuergerät - Signal Ausgangsstromkreis zu niedrig
+P0739	Motordrehzahl Getriebesteuergerät - Signal Ausgangsstromkreis zu hoch
+P0740	Wandlerüberbrückungskupplung-Magnetventil - Fehlfunktion Stromkreis
+P0741	Wandlerüberbrückungskupplung-Magnetventil - Fehlfunktion oder ständig deaktiviert
+P0742	Wandlerüberbrückungskupplung-Magnetventil - ständig aktiviert
+P0743	Wandlerüberbrückungskupplung-Magnetventil - elektrischer Teil
+P0744	Wandlerüberbrückungskupplung-Magnetventil -zeitweilige Stromkreisunterbrechungen
+P0745	Getriebeöldruck Magnetventil - Fehlfunktion Stromkreis
+P0746	Getriebeöldruck Magnetventil - Fehlfunktion oder ständig deaktiviert
+P0747	Getriebeöldruck Magnetventil - ständig aktiviert
+P0748	Getriebeöldruck Magnetventil - elektrischer Teil
+P0749	Getriebeöldruck Magnetventil - zeitweilige Stromkreisunterbrechungen
+P0750	Schaltmagnetventil A - Fehlfunktion Stromkreis
+P0751	Schaltmagnetventil A - Fehlfunktion oder ständig deaktiviert
+P0752	Schaltmagnetventil A - ständig aktiviert
+P0753	Schaltmagnetventil A - elektrischer Teil
+P0754	Schaltmagnetventil A - zeitweilige Stromkreisunterbrechungen
+P0755	Schaltmagnetventil B - Fehlfunktion Stromkreis
+P0756	Schaltmagnetventil B - Fehlfunktion oder ständig deaktiviert
+P0757	Schaltmagnetventil B - ständig aktiviert
+P0758	Schaltmagnetventil B - elektrischer Teil
+P0759	Schaltmagnetventil B - zeitweilige Stromkreisunterbrechungen
+P0760	Schaltmagnetventil C - Fehlfunktion Stromkreis
+P0761	Schaltmagnetventil C - Fehlfunktion oder ständig deaktiviert
+P0762	Schaltmagnetventil C - ständig aktiviert
+P0763	Schaltmagnetventil C - elektrischer Teil
+P0764	Schaltmagnetventil C - zeitweilige Stromkreisunterbrechungen
+P0765	Schaltmagnetventil D - Fehlfunktion Stromkreis
+P0766	Schaltmagnetventil D - Fehlfunktion oder ständig deaktiviert
+P0767	Schaltmagnetventil D - ständig aktiviert
+P0768	Schaltmagnetventil D - elektrischer Teil
+P0769	Schaltmagnetventil D - zeitweilige Stromkreisunterbrechungen
+P0770	Schaltmagnetventil E - Fehlfunktion Stromkreis
+P0771	Schaltmagnetventil E -Fehlfunktion oder ständig deaktiviert
+P0772	Schaltmagnetventil E - ständig aktiviert
+P0773	Schaltmagnetventil E - elektrischer Teil
+P0774	Schaltmagnetventil E - zeitweilige Stromkreisunterbrechungen
+P0775	Druckregler-Magnetventil B - Fehlfunktion
+P0776	Druckregler-Magnetventil B - Fehlfunktion oder ständig deaktiviert
+P0777	Druckregler-Magnetventil B - ständig aktiviert
+P0778	Druckregler-Magnetventil B - elektrische Fehlfunktion
+P0779	Druckregler-Magnetventil B - zeitweilige Stromkreisunterbrechungen
+P0780	Gangwahl - fehlerhafter Gangwechsel
+P0781	Gangwahl, 1-2 - fehlerhafter Gangwechsel
+P0782	Gangwahl, 2-3 - fehlerhafter Gangwechsel
+P0783	Gangwahl, 3-4 - fehlerhafter Gangwechsel
+P0784	Gangwahl, 4-5 - fehlerhafter Gangwechsel
+P0785	Schaltzeitpunkt-Magnetventil A - Fehlfunktion Stromkreis
+P0786	Schaltzeitpunkt-Magnetventil A - Bereichs/Funktionsfehler
+P0787	Schaltzeitpunkt-Magnetventil A - Signal zu niedrig
+P0788	Schaltzeitpunkt-Magnetventil A - Signal zu hoch
+P0789	Schaltzeitpunkt-Magnetventil A - zeitweilig unterbrochenes Signal
+P0790	Getriebebetriebswählschalter - Fehlfunktion Stromkreis
+P0791	Getriebezwischenwellen-Drehzahlsensor - Fehlfunktion Stromkreis
+P0792	Getriebezwischenwellen-Drehzahlsensor - Bereichs-/Funktionsfehler
+P0793	Getriebezwischenwellen-Drehzahlsensor - kein Signal
+P0794	Getriebezwischenwellen-Drehzahlsensor - sporadische Fehlfunktion Stromkreis
+P0795	Getriebeöldruck-Magnetventil C - Fehlfunktion Stromkreis
+P0796	Getriebeöldruck-Magnetventil C - Fehlfunktion oder ständig deaktiviert
+P0797	Getriebeöldruck-Magnetventil C - ständig aktiviert
+P0798	Getriebeöldruck-Magnetventil C - elektrische Fehlfunktion
+P0799	Getriebeöldruck-Magnetventil C - sporadische Fehlfunktion Stromkreis
+P0800	Verteilergetriebe-Regelsystem, Anforderungssignal Motorstörungswarnleuchte - Fehlfunktion
+P0801	Stromkreis Rückwärtsgangssperre - Fehlfunktion
+P0802	Getrieberegelung, Anforderungssignal Motorstörungswarnleuchte - offener Stromkreis
+P0803	Magnetventil 1-4 Hochschaltung (Gangüberspringung) - Fehlfunktion Stromkreis
+P0804	Warnleuchte 1-4-Hochschaltung (Gangüberspringung) - Fehlfunktion Stromkreis
+P0805	Kupplungsstellungssensor - Fehlfunktion Stromkreis
+P0806	Kupplungsstellungssensor - Bereichs/Funktionsfehler
+P0807	Kupplungsstellungssensor - Eingangssignal zu niedrig
+P0808	Kupplungsstellungssensor - Eingangssignal zu hoch
+P0809	Kupplungsstellungssensor - sporadische Fehlfunktion Stromkreis
+P0810	Steuerfehler Kupplungsstellung
+P0811	Übermäßiger Kupplungsschlupf
+P0812	Rückwärtsgang - Fehlfunktion Eingangsstromkreis
+P0813	Rückwärtsgang - Fehlfunktion Ausgangsstromkreis
+P0814	Fahrstufe-Anzeige - Fehlfunktion Stromkreis
+P0815	Schalter Hochschaltung - Fehlfunktion Stromkreis
+P0816	Schalter Rückschaltung - Fehlfunktion Stromkreis
+P0817	Stromkreis Anlasssperre - Fehlfunktion
+P0818	Trennschalter Antriebsstrang - Fehlfunktion Stromkreis
+P0819	Bezugsfehler Schalter Hoch/Rückschaltung zu Fahrstufe
+P0820	Schalthebelstellungssensor X-Y-Position - Fehlfunktion Stromkreis
+P0821	Schalthebelstellungssensor X-Position - Fehlfunktion Stromkreis
+P0822	Schalthebelstellungssensor Y-Position - Fehlfunktion Stromkreis
+P0823	Schalthebelstellungssensor X-Position - zeitweilige Stromkreisunterbrechungen
+P0824	Schalthebelstellungssensor Y-Position - zeitweilige Stromkreisunterbrechungen
+P0825	Zug/Druckschalter Schalthebelstellung - Fehlfunktion Stromkreis
+P0826	Schalter Hoch/Rückschaltung - Eingangsstromkreis
+P0827	Schalter Hoch/Rückschaltung - Eingangssignal zu niedrig
+P0828	Schalter Hoch/Rückschaltung - Eingangssignal zu hoch
+P0829	5-6-Hochschaltung
+P0830	Kupplungspedalschalter A - Fehlfunktion Stromkreis
+P0831	Kupplungspedalschalter A - Eingangssignal zu niedrig
+P0832	Kupplungspedalschalter A - Eingangssignal zu hoch
+P0833	Kupplungspedalschalter B - Fehlfunktion Stromkreis
+P0834	Kupplungspedalschalter B - Eingangssignal zu niedrig
+P0835	Kupplungspedalschalter B - Eingangssignal zu hoch
+P0836	Allradantriebsschalter - Fehlfunktion Stromkreis
+P0837	Allradantriebsschalter - Bereichs/Funktionsfehler
+P0838	Allradantriebsschalter - Eingangssignal zu niedrig
+P0839	Allradantriebsschalter - Eingangssignal zu hoch
+P0840	Getriebeöldrucksensor A - Fehlfunktion Stromkreis
+P0841	Getriebeöldrucksensor A - Bereichs/Funktionsfehler
+P0842	Getriebeöldrucksensor A - Eingangssignal zu niedrig
+P0843	Getriebeöldrucksensor A - Eingangssignal zu hoch
+P0844	Getriebeöldrucksensor A - sporadische Fehlfunktion Stromkreis
+P0845	Getriebeöldrucksensor B - Fehlfunktion Stromkreis
+P0846	Getriebeöldrucksensor B - Bereichs/Funktionsfehler
+P0847	Getriebeöldrucksensor B - Eingangssignal zu niedrig
+P0848	Getriebeöldrucksensor B - Eingangssignal zu hoch
+P0849	Getriebeöldrucksensor B - sporadische Fehlfunktion Stromkreis
+P0850	Park/Getriebeleerlaufschalter - Fehlfunktion
+P0851	Park/Getriebeleerlaufschalter - Eingangssignal zu niedrig
+P0852	Park/Getriebeleerlaufschalter-Eingangssignal zu hoch
+P0853	Getriebefahrschalter- Fehlfunktion Eingangsstromkreis
+P0854	Getriebefahrschalter- Eingangssignal zu niedrig
+P0855	Getreibefahrschalter- Eingangssignal zu hoch
+P0856	Eingangssignal Antriebsschlupfregelung - Fehlfunktion
+P0857	Eingangssignal Antriebsschlupfregelung - Bereichs/Funktionsfehler
+P0858	Eingangssignal Antriebsschlupfregelung- zu niedrig
+P0859	Eingangssignal Antriebsschlupfregelung- zu hoch
+P0860	Kommunikationskreis Schaltsteuergerät- Fehlfunktion
+P0861	Kommunikationskreis Schaltsteuergerät - Eingangssignal zu niedrig
+P0862	Kommunikationskreis Schaltsteuergerät - Einganssignal zu hoch
+P0863	Kommunikationskreis Getriebesteuergerät - Fehlfunktion
+P0864	Kommunikationskreis Getriebesteuergerät - Bereichs/Funktionsfehler
+P0865	Kommunikationskreis Getriebesteuergerät - Eingangssignal zu niedrig
+P0866	Kommunikationskreis Getriebesteuergerät - Eingangssignal zu hoch
+P0867	Getriebeöldrucksensor
+P0868	Getriebedruckölsensor - Signal zu niedrig
+P0869	Getriebedruckölsensor - Signal zu hoch
+P0870	Getriebedruckölsensor C - Fehlfunktion Stromkreis
+P0871	Getriebeöldrucksensor C - Bereichs/Funktionsfehler
+P0872	Getriebeöldrucksensor C - Signal zu niedrig
+P0873	Getriebeöldrucksensor C - Signal zu hoch
+P0874	Getriebeöldrucksensor C - sporadische Fehlfunktion
+P0875	Getriebeöldrucksensor D - Fehlfunktion Stromkreis
+P0876	Getriebeöldrucksensor D - Bereichs/Funktionsfehler
+P0877	Getriebeöldrucksensor D - Signal zu niedrig
+P0878	Getriebeöldrucksensor D - Signal zu hoch
+P0879	Getriebeöldrucksensor D - sporadische Fehlfunktion Stromkreis
+P0880	Getriebesteuergerät- Fehlfunktion Versorgungseingangssignal
+P0881	Getriebesteuergerät - Bereichs/Funktionsfehler Versorgungsseingangssignal
+P0882	Getriebesteuergerät - Versorgungseingangssignal zu niedrig
+P0883	Getriebesteuergerät - Versorgungseingangssignal zu hoch
+P0884	Getriebesteuergerät - Sporadische Fehlfunktion Versorgungseingangssignal
+P0885	Versorgungsrelais Getriebesteuergerät - offener Steuerstromkreis
+P0886	Versorgungsrelais Getriebesteuergerät - Signal Steuerstromkreis zu niedrig
+P0887	Versorgungsrelais Getriebesteuergerät - Signal Steuerstromkreis zu hoch
+P0888	Versorgungsrelais Getriebesteuergerät - Fehlfunktion im Stromkreis Relaisschaltzustandserfassung
+P0889	Versorgungsrelais Getriebesteuergerät - Bereichs/Funktionsfehler im Stromkreis Relaisschaltzustandserfassung
+P0890	Versorgungsrelais Getriebesteuergerät - Signal zu niedrig im Stromkreis Relaisschaltzustandserfassung
+P0891	Versorgungsrelais Getriebesteuergerät - Signal zu hoch im Stromkreis Relaisschaltzustandserfassung
+P0892	Versorgungsrelais Getriebesteuergerät - sporadische Fehlfunktion im Stromkreis Relaisschaltzustandserfassung
+P0893	Mehrere Gangräder gleichzeitig im Eingriff
+P0894	Bauteilbedingter Getriebeschlupf
+P0895	Schaltzeit zu kurz
+P0896	Schaltzeit zu lang
+P0897	Getriebeölwechsel erforderlich
+P0898	Getrieberegelung - Anforderung Motorstörungswarnleuchte - Signal zu niedrig
+P0899	Getrieberegelung - Anforderung Motorstörungswarnleuchte - Signal zu hoch
+P0900	Kupplungsstellglied - offener Stromkreis
+P0901	Kupplungsstellglied - Bereichs-/Funktionsfehler Stromkreis
+P0902	Kupplungsstellglied - Signal zu niedrig
+P0903	Kupplungsstellglied - Signal zu hoch
+P0904	Stromkreis Neutralgassenstellung - Fehlfunktion
+P0905	Stromkreis Neutralgassenstellung - Bereichs/Funktionsfehler
+P0906	Stromkreis Neutralgassenstellung - Signal zu niedrig
+P0907	Stromkreis Neutralgassenstellung - Signal zu hoch
+P0908	Stromkreis Neutralgassenstellung - sporadische Fehlfunktion Stromkreis
+P0909	Steuerfehler Neutralgassenstellung
+P0910	Stellglied Neutralgassenstellung - offener Stromkreis
+P0911	Stellglied Neutralgassenstellung - Bereichs/Funktionsfehler Stromkreis
+P0912	Stellglied Neutralgassenstellung - Signal zu niedrig
+P0913	Stellglied Neutralgassenstellung - Signal zu hoch
+P0914	Stromkreis Schaltgassenstellung - Fehlfunktion
+P0915	Stromkreis Schaltgassenstellung - Bereichs/Funktionsfehler
+P0916	Stromkreis Schaltgassenstellung - Signal zu niedrig
+P0917	Stromkreis Schaltgassenstellung - Signal zu hoch
+P0918	Stromkreis Schaltgassenstellung - sporadische Fehlfunktion
+P0919	Schaltgassenstellung - Fehler
+P0920	Stellglied Schaltvorgang-Vorwärtsbewegung - offener Stromkreis
+P0921	Stellglied Schaltvorgang-Vorwärtsbewegung - Bereichs/Funktionsfehler Stromkreis
+P0922	Stellglied Schaltvorgang Vorwärtsbewegung - Signal zu niedrig
+P0923	Stellglied Schaltvorgang Vorwärtsbewegung - Signal zu hoch
+P0924	Stellglied Schaltvorgang-Rückwärtsbewegung - offener Stromkreis
+P0925	Stellglied Schaltvorgang-Rückwärtsbewegung - Bereichs/Funktionsfehler Stromkreis
+P0926	Stellglied Schaltvorgang-Rückwärtsbewegung - Signal zu niedrig
+P0927	Stellglied Schaltvorgang-Rückwärtsbewegung - Signal zu hoch
+P0928	Schaltsperren-Magnetschalter - offener Stromkreis
+P0929	Schaltsperren-Magnetschalter - Bereichs/Funktionsfehler Stromkreis
+P0930	Schaltsperren-Magnetschalter - Signal zu niedrig
+P0931	Schaltsperren-Magnetschalter - Signal zu hoch
+P0932	Hydraulikdrucksensor - Fehlfunktion Stromkreis
+P0933	Hydraulikdrucksensor - Bereichs/Funktionsfehler
+P0934	Hydraulikdrucksensor - Eingangssignal zu niedrig
+P0935	Hydraulikdrucksensor - Eingangssignal zu hoch
+P0936	Hydraulikdrucksensor - zeitweilige Stromkreisunterbrechungen
+P0937	Hydrauliköltemperatursensor - Fehlfunktion Stromkreis
+P0938	Hydrauliköltemperatursensor - Bereichs/Fehlfunktion
+P0939	Hydrauliköltemperatursensor - Eingangssignal zu niedrig
+P0940	Hydrauliköltemperatursensor - Eingangssignal zu hoch
+P0941	Hydrauliköltemperatursensor - zeitweilige Stromkreisunterbrechungen
+P0942	Hydraulikeinheit
+P0943	Hydraulikeinheit - Zyklusdauer zu kurz
+P0944	Hydraulikeinheit - Druckverlust
+P0945	Hydraulikpumpenrelais - offener Stromkreis
+P0946	Hydraulikpumpenrelais - Bereichs/Funktionsfehler Stromkreis
+P0947	Hydraulikpumpenrelais - Signal zu niedrig
+P0948	Hydraulikpumpenrelais -Signal zu hoch
+P0949	Automatische Getriebeschaltung - adaptive Datenerfassung nicht ausgeführt
+P0950	Stromkreis automatische Getriebeschaltregelung
+P0951	Stromkreis automatische Getriebeschaltregelung - Bereichs/Funktionsfehler
+P0952	Stromkreis automatische Getriebeschaltregelung - Signal zu niedrig
+P0953	Stromkreis automatische Getriebeschaltregelung - Signal zu hoch
+P0954	Automatische Getriebeschaltung - sporadische Fehlfunktion Stromkreis
+P0955	Stromkreis automatischer Getriebeschaltmodus - Fehlfunktion
+P0956	Stromkreis automatischer Getriebeschaltmodus - Bereichs/Funktionsfehler
+P0957	Stromkreis automatischer Getriebeschaltmodus - Signal zu niedrig
+P0958	Stromkreis automatischer Getriebeschaltmodus-Signal zu hoch
+P0959	Stromkreis automatischer Getriebeschaltmodus - Sporadische Fehlfunktion Stromkreis
+P0960	Druckregel-Magnetventil A - offener Steuerstromkreis
+P0961	Druckregel-Magnetventil A - Bereichs/Funktionsfehler Steuerstromkreis
+P0962	Druckregel-Magnetventil A - Signal Steuerstromkreis zu niedrig
+P0963	Druckregel-Magnetventil A - Signal Steuerstromkreis zu hoch
+P0964	Druckregel-Magnetventil B - offener Steuerstromkreis
+P0965	Druckregel-Magnetventil B - Bereichs/Funktionsfehler Steuerstromkreis
+P0966	Druckregel-Magnetventil B - Signal Steuerstromkreis zu niedrig
+P0967	Druckregel-Magnetventil B - Signal Steuerstromkreis zu hoch
+P0968	Druckregel-Magnetventil C - offener Steuerstromkreis
+P0969	Druckregel-Magnetventil C - Cereichs/Funktionsfehler Steuerstromkreis
+P0970	Druckregel-Magnetventil C - Signal Steuerstromkreis zu niedrig
+P0971	Druckregel-Magnetventil C - Signal Steuerstromkreis zu hoch
+P0972	Schaltmagnetventil A - Bereichs/Funktionsfehler Steuerstromkreis
+P0973	Schaltmagnetventil A - Signal Steuerstromkreis zu niedrig
+P0974	Schaltmagnetventil A - Signal Steuerstromkreis zu hoch
+P0975	Schaltmagnetventil B - Bereichs/Funktionsfehler Steuerstromkreis
+P0976	Schaltmagnetventil B - Signal Steuerstromkreis zu niedrig
+P0977	Schaltmagnetventil B - Signal Steuerstromkreis zu hoch
+P0978	Schaltmagnetventil C - Bereichs/Funktionsfehler Steuerstromkreis
+P0979	Schaltmagnetventil C - Signal Steuerstromkreis zu niedrig
+P0980	Schaltmagnetventil C - Signal Steuerstromkreis zu hoch
+P0981	Schaltmagnetventil D - Bereichs/Funktionsfehler Steuerstromkreis
+P0982	Schaltmagnetventil D - Signal Steuerstromkreis zu niedrig
+P0983	Schaltmagnetventil D - Signal Steuerstromkreis zu hoch
+P0984	Schaltmagnetventil E - Bereichs/Funktionsfehler Steuerstromkreis
+P0985	Schaltmagnetventil E - Signal Steuerstromkreis zu niedrig
+P0986	Schaltmagnetventil E - Signal Steuerstromkreis zu hoch
+P0987	Getriebeöldrucksensor E - Fehlfunktion Stromkreis
+P0988	Getriebeöldrucksensor E - Bereichs/Funktionsfehler Stromkreis
+P0989	Getriebeöldrucksensor E - Signal zu niedrig
+P0990	Getriebeöldrucksensor E-Signal zu hoch
+P0991	Getriebeöldrucksensor E - zeitweilige Stromkreisunterbrechungen
+P0992	Getriebeöldrucksensor F - Fehlfunktion Stromkreis
+P0993	Getriebeöldrucksensor F - Bereichs/Funktionsfehler Stromkreis
+P0994	Getriebeöldrucksensor F - Signal zu niedrig
+P0995	Getriebeöldrucksensor F - Signal zu hoch
+P0996	Getriebeöldrucksensor F - zeitweilige Stromkreisunterbrechungen
+P0997	Schaltmagnetventil F - Bereichs/Funktionsfehler Steuerstromkreis
+P0998	Schaltmagnetventil F - Signal Steuerstromkreis zu niedrig
+P0999	Schaltmagnetventil F - Signal Steuerstromkreis zu hoch
+<o3script.END;READ>
+<o3script.finish>
+<o3script\>
