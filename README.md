@@ -9,7 +9,7 @@ It provides an easy way to connect, read vehicle data, and interpret diagnostic 
 <a href="https://o3diag.openw3rk.de">https://o3diag.openw3rk.de</a> / <a href="https://openw3rk.de">https://openw3rk.de</a></p>
 <strong>o3DIAG Development Tool:</strong><br>
 <a href="https://github.com/openw3rk-DEVELOP/o3DIAG_E-EE">https://github.com/openw3rk-DEVELOP/o3DIAG_E-EE</a><br>
-<strong>For Feedback:</strong>
+<strong>For Feedback:</strong><br>
 <a href="mailto:develop@openw3rk.de">develop@openw3rk.de</a>
 
 <h3>Main Features</h3>
