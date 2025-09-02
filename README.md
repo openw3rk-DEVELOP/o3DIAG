@@ -63,8 +63,15 @@ It is a practical tool for basic diagnostics and understanding of OBD-II data.
 
 <p>
 o3DIAG is open source and licensed under MIT-LICENSE.</p>
+<h2>Compile:</h2>
+
+<p>
+Compiling o3DIAG is simple, using the following command:</p>
+<pre><code>pyinstaller --onefile --windowed --icon=o3DIAG_ico.ico --add-data "o3DIAG_logo.png;." --add-data "THE_PCODES_LIST.o3script;." o3DIAG_VERSION.py</code></pre>
+<p>Appropriate parameters such as "o3DIAG version" and the ".o3script" file for the P-codes list must be adjusted.</p><br>
+
 
 <footer style="text-align: center; margin-top: 50px;">
-  <p>Copyright (c) openw3rk INVENT</p>
    <img src="Version Beta 1.5/o3DIAG_logo.png" alt="Logo" width="120">
+  <strong>Copyright (c) openw3rk INVENT</strong>
 </footer>
