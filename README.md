@@ -40,7 +40,7 @@ It provides an easy way to connect, read vehicle data, and interpret diagnostic 
 
 <p>
 <strong>P-Code Translation</strong><br><br>
-– The program can look up diagnostic codes (P0000–P0999 and beyond) from an integrated script-based list.<br>
+– The program can look up diagnostic codes (P0000–P0999 and beyond) from an integrated o3script-based list.<br>
 – Instead of showing just the raw code, the program displays the human-readable meaning of each fault.
 </p>
 
