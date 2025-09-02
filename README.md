@@ -59,11 +59,7 @@ With o3DIAG, users can quickly access essential vehicle information, monitor liv
 It is a practical tool for basic diagnostics and understanding of OBD-II data.
 </p>
 
-<h3>Information for developers</h3>
-
-<p>
-o3DIAG is open source and licensed under MIT-LICENSE.</p>
-<h2>Compile:</h2>
+<h3>Compile:</h3>
 
 <p>
 Compiling o3DIAG is simple, using the following command:</p>
