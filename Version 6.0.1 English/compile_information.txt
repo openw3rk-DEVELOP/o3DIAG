@@ -1,0 +1,13 @@
+Compile o3DIAG version 6.0.1
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pyinstaller --onefile --windowed --icon=o3assets/o3DIAG_ico.ico --add-data "o3assets;o3assets" --add-data "log_export;log_export" --add-data "o3DIAG_Pcodes_list_english.o3script;." o3DIAG_6.0.1_ENG.py
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+For the o3DIAG Log Export Manager use a COBOL compiler.
+--------------------------------------------------------
+openw3rk INVENT - Vehicle Solutions
+https://openw3rk.de
+https://o3diag.openw3rk.de
+o3DIAG is Licensed under MIT-LICENSE.
+Copyright (c) openw3rk INVENT
+
+   											 
