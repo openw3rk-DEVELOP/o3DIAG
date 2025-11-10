@@ -1,0 +1,26 @@
+File tree of o3DIAG 6.0.1
+--------------------------
+
+** = Main-Folder
+* = Sub-Folder of Main-Folder
+------------------------------
+
+**- Application Folder
+    - o3DIAG_6.0.1.py/.exe
+    - o3DIAG_Pcodes_list_english.o3script
+    - LICENSE.txt
+
+*- log_export
+   - o3DIAG_Log_Export_Manager.cob/.exe
+   - All runtime libs for COBOL
+
+*- o3assets
+   - o3DIAG_ico.ico
+   - o3DIAG_logo.png
+   - o3I_VS_logo.png
+
+-------------------------------------
+openw3rk INVENT - Vehicle Solutions
+https://o3diag.openw3rk.de
+https://openw3rk.de
+Copyright (c) openw3rk INVENT
