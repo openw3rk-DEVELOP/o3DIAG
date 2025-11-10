@@ -62,7 +62,7 @@ It is a practical tool for basic diagnostics and understanding of OBD-II data.
 <h3>Compile</h3>
 
 <p>
-Compiling o3DIAG is simple, using the following command:</p>
+Compiling o3DIAG is simple, using the following command (for Beta 2.5 or earlier):</p>
 <pre><code>pyinstaller --onefile --windowed --icon=o3DIAG_ico.ico --add-data "o3DIAG_logo.png;." --add-data "THE_PCODES_LIST.o3script;." o3DIAG_VERSION.py</code></pre>
 <p>Appropriate parameters such as "o3DIAG version" and the ".o3script" file for the P-codes list must be adjusted.</p><br>
 
