@@ -1,0 +1,5 @@
+3/3 Files
+
+o3DIAG_ico.ico
+o3DIAG_logo.png
+o3I_VS_logo.png
