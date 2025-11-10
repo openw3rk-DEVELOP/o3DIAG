@@ -3,6 +3,7 @@ File tree of o3DIAG 6.0.1
 
 ** = Main-Folder
 * = Sub-Folder of Main-Folder
+*** = Auto-Create-Folders
 ------------------------------
 
 **- Application Folder
@@ -18,6 +19,9 @@ File tree of o3DIAG 6.0.1
    - o3DIAG_ico.ico
    - o3DIAG_logo.png
    - o3I_VS_logo.png
+
+***- C:\users\user\.o3DIAG\logs
+     - Exported_logs.txt
 
 -------------------------------------
 openw3rk INVENT - Vehicle Solutions
