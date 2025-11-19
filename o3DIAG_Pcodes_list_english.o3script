@@ -1,0 +1,1010 @@
+-* OBD2 Error Codes List (P-codes P0000 - P0999) (English) FOR o3DIAG *-
+-* o3DIAG - https://o3diag.openw3rk.de | openw3rk INVENT - https://openw3rk.de *-
+-* Help: https://o3diag.openw3rk.de/help/develop/o3script *-
+-* Copyright (c) openw3rk INVENT *-
+
+<\o3script>
+<o3script.make>
+<o3script.listing/"1"-line/"5"-marks/"1"-space/"1"-last-line>
+<o3script.START;READ>
+P0000 No Fault Detected
+P0001 Fuel Volume Control A - Open Circuit
+P0002 Fuel Volume Control A - Range/Function Circuit Error
+P0003 Fuel Volume Control A - Signal Too Low
+P0004 Fuel Volume Control A - Signal Too High
+P0005 Fuel Shutoff Solenoid - Open Circuit
+P0006 Fuel Shutoff Solenoid - Signal Too Low
+P0007 Fuel Shutoff Solenoid - Signal High
+P0008 Engine Timing, Bank 1 - Engine Power
+P0009 Engine Timing, Bank 2 - Engine Power
+P0010 Camshaft Position Actuator, Intake/Left/Front, Bank 1 - Circuit Malfunction
+P0011 Camshaft Position, Intake/Left/Front, Bank 1 - Excessive Advance
+P0012 Camshaft Position, Intake/Left/Front, Bank 1 - Excessive Retard
+P0013 Camshaft Position Actuator, Intake/Left/Front, Bank 1 - Circuit Malfunction
+P0014 Camshaft Position Actuator, Exhaust/Right/Rear, Bank 1 - Excessive Advance
+P0015 Camshaft Position Actuator, Exhaust/Right/Rear, Bank 1 - Excessive Retard
+P0016 Crankshaft Position/Camshaft Position Bank 1 Sensor A - Reference Failure
+P0017 Crankshaft Position/Camshaft Position, Bank 1 Sensor B - Reference Failure
+P0018 Crankshaft Position/Camshaft Position, Bank 2 Sensor A - Reference Failure
+P0019 Crankshaft Position/Camshaft Position, Bank 2 Sensor B - Reference Failure
+P0020 Intake/Left/Front Camshaft Position Actuator, Bank 2 - Circuit Malfunction
+P0021 Intake/Left/Front Camshaft Position, Bank 2 - Excessive Advance
+P0022 Intake/Left/Front Camshaft Position Actuator, Bank 2 - Excessive Retard
+P0023 Exhaust/Right/Rear Camshaft Position Actuator, Bank 2 - Circuit Malfunction
+P0024 Exhaust/Right/Rear Camshaft Position, Bank 2 - Excessive Advance
+P0025 Camshaft Position, Exhaust/Right/Rear, Bank 2 - Excessive Retardation
+P0026 Intake Camshaft Timing Solenoid Circuit, Bank 1 - Range/Operation Malfunction
+P0027 Exhaust Camshaft Timing Solenoid Circuit, Bank 1 - Range/Operation Malfunction
+P0028 Intake Camshaft Timing Solenoid Circuit, Bank 2 - Range/Operation Malfunction
+P0029 Exhaust Camshaft Timing Solenoid Circuit, Bank 2 - Range/Operation Malfunction
+P0030 Heated Oxygen Sensor 1, Bank 1, Heater Control Circuit Malfunction
+P0031 Heated Oxygen Sensor 1, Bank 1, Heater Control Circuit Low
+P0032 Heated Oxygen Sensor 1, Bank 1, Heater Control Circuit High
+P0033 Boost Control Valve Malfunction Circuit
+P0034 Boost Pressure Control Valve - Low Signal
+P0035 Boost Pressure Control Valve - High Signal
+P0036 Heated Oxygen Sensor 2, Bank 1, Heater Control Circuit Malfunction
+P0037 Heated Oxygen Sensor 2, Bank 1, Heater Control - Low Signal
+P0038 Heated Oxygen Sensor 2, Bank 1, Heater Control - High Signal
+P0039 Turbocharger/Compressor Bypass Valve Control Circuit - Range/Function Malfunction
+P0040 Oxygen Sensor Signal Reversed, Bank 1 Sensor 1/Bank 2 Sensor 1
+P0041 Oxygen Sensor Signal Reversed, Bank 1 Sensor 2/Bank 2 Sensor 2
+P0042 Heated Oxygen Sensor 3, Bank 1, Heater Control Circuit Malfunction
+P0043 Heated Oxygen Sensor 3, Bank 1, Heater Control - Low Signal
+P0044 Heated Oxygen Sensor 3, Bank 1, Heater Control - High Signal
+P0045 Turbocharger Compressor Control Solenoid - Open Circuit
+P0046 Turbocharger Compressor Control Solenoid - Circuit Range/Function Malfunction
+P0047 Turbocharger Compressor Control Solenoid - Low Signal
+P0048 Turbocharger Compressor Control Solenoid - High Signal
+P0049 Turbocharger/Compressor Turbine - Overspeed
+P0050 Heated Oxygen Sensor 1, Bank 2, Heater Control Circuit Malfunction
+P0051 Heated Oxygen Sensor 1, Bank 2, Heater Control - Low Signal
+P0052 Heated Oxygen Sensor 1, Bank 2, Heater Control - Closed High
+P0053 Heated Oxygen Sensor Bank 1, Sensor 1 - Heater Element Resistance
+P0054 Heated Oxygen Sensor Bank 1, Sensor 2 - Heater Element Resistance
+P0055 Heated Oxygen Sensor Bank 1, Sensor 3 - Heater Element Resistance
+P0056 Heated Oxygen Sensor Bank 2, Heater Control Circuit Malfunction
+P0057 Heated Oxygen Sensor Bank 2, Heater Control Circuit - Heater Circuit Signal Too Low
+P0058 Heated Oxygen Sensor Bank 2, Bank 2 Heater Control - Signal Too High
+P0059 Heated Oxygen Sensor, Bank 2, Sensor 1 - Heater Resistance
+P0060 Heated Oxygen Sensor, Bank 2, Sensor 2 - Heater Resistance
+P0061 Heated Oxygen Sensor, Bank 2, Sensor 3 - Heater Resistance
+P0062 Heated Oxygen Sensor 3, Bank 2, Heater Control - Circuit Malfunction
+P0063 Heated Oxygen Sensor 3, Bank 2, Heater Control - Signal Too Low
+P0064 Heated Oxygen Sensor 3, Bank 2, Heater Control - Signal Too High
+P0065 Air Injector Range/Function Malfunction
+P0066 Air Injector Circuit Malfunction/Signal Too Low
+P0067 Air Injector Signal Too High
+P0068 Intake Manifold Pressure Sensor / Mass Air Flow Sensor / Throttle Position Reference Error
+P0069 Intake Manifold Pressure Sensor / Atmospheric Pressure Sensor Reference Error
+P0070 Outside Temperature Sensor Circuit Malfunction
+P0071 Outside Temperature Sensor Range/Function Error
+P0072 Outside Temperature Sensor Input Signal Too Low
+P0073 Outside Temperature Sensor Input Signal Too High
+P0074 Outside Temperature Sensor Intermittent Circuit Open
+P0075 Intake Camshaft Timing Solenoid, Bank 1, Circuit Malfunction
+P0076 Intake Camshaft Timing Solenoid, Bank 1, Signal Too Low
+P0077 Intake Camshaft Timing Solenoid, Bank 1, Signal Too High
+P0078 Exhaust Camshaft Timing Solenoid, Bank 1, Circuit Malfunction
+P0079 Exhaust Camshaft Timing Solenoid, Bank 1, Signal Too Low
+P0080 Exhaust Camshaft Timing Solenoid, Bank 1 - High Signal
+P0081 Intake Camshaft Timing Solenoid, Bank 2 - Circuit Malfunction
+P0082 Intake Camshaft Timing Solenoid, Bank 2 - Low Signal
+P0083 Intake Camshaft Timing Solenoid, Bank 2 - High Signal
+P0084 Exhaust Camshaft Timing Solenoid, Bank 2 - Circuit Malfunction
+P0085 Exhaust Camshaft Timing Solenoid, Bank 2 - Low Signal
+P0086 Exhaust Camshaft Timing Solenoid, Bank 2 - High Signal
+P0087 Fuel Rail/System Pressure Too Low
+P0088 Fuel Rail/System Pressure Too High
+P0089 Fuel Pressure Regulator - Impaired Operation
+P0090 Fuel Metering Valve - Open Circuit
+P0091 Fuel Metering Valve - Short to ground
+P0092 Fuel metering valve - Short to battery positive
+P0093 Fuel system leak - large leak detected
+P0094 Fuel system leak - small leak detected
+P0095 Intake air temperature sensor 2 - circuit malfunction
+P0096 Intake air temperature sensor 2 - circuit range/function error
+P0097 Intake air temperature sensor 2 - input signal too low
+P0098 Intake air temperature sensor 2 - input signal too high
+P0099 Intake air temperature sensor 2 - circuit intermittent open
+P0100 Mass air flow sensor - circuit malfunction
+P0101 Mass air flow sensor - range/function error
+P0102 Mass air flow sensor - input signal too low
+P0103 Mass air flow sensor - input signal too high
+P0104 Mass Air Flow Sensor/Air Flow Meter - Intermittent Circuit Opens
+P0105 Intake Manifold/Atmospheric Pressure Sensor - Circuit Malfunction
+P0106 Intake Manifold/Atmospheric Pressure Sensor - Range Function Error
+P0107 Intake Manifold/Atmospheric Pressure Sensor - Low Input
+P0108 Intake Manifold/Atmospheric Pressure Sensor - High Input
+P0109 Intake Manifold/Atmospheric Pressure Sensor - Intermittent Circuit Opens
+P0110 Intake Air Temperature Sensor - Circuit Malfunction
+P0111 Intake Air Temperature Sensor - Range/Function Error
+P0112 Intake Air Temperature Sensor - Low Input
+P0113 Intake Air Temperature Sensor - High Input
+P0114 Intake Air Temperature Sensor - Intermittent Circuit Opens
+P0115 Engine Coolant Temperature Sensor - Circuit Malfunction
+P0116 Engine Coolant Temperature Sensor - Range/Function Error
+P0117 Engine Coolant Temperature Sensor - Input Signal Too Low
+P0118 Engine Coolant Temperature Sensor - Input Signal Too High
+P0119 Engine Coolant Temperature Sensor - Intermittent Circuit Opens
+P0120 Throttle Potentiometer A/Accelerator Pedal Sensor A - Throttle Switch Circuit Malfunction
+P0121 Throttle Potentiometer A/Accelerator Pedal Sensor A - Throttle Switch Range/Function Error
+P0122 Throttle Potentiometer A/Accelerator Pedal Sensor A - Input Signal Too Low Throttle Switch
+P0123 Throttle Potentiometer A/Accelerator Pedal Sensor A - Input Signal Too High Throttle Switch
+P0124 Throttle Potentiometer A/Accelerator Pedal Sensor A - Intermittent Circuit Opens/Throttle Switch
+P0125 Engine Coolant Temperature Too Low - Fuel Pressure Not Closed Loop
+P0126 Coolant temperature too low - rough engine running
+P0127 Intake air temperature too high
+P0128 Coolant thermostat - coolant temperature below thermostat control temperature
+P0129 Atmospheric pressure too low
+P0130 Heated oxygen sensor 1, cylinder bank 1 - circuit malfunction
+P0131 Heated oxygen sensor 1, cylinder bank 1 - voltage too low, oxygen sensor 1
+P0132 Heated oxygen sensor 1, cylinder bank 1 - voltage too high, oxygen sensor 1
+P0133 Heated oxygen sensor 1, cylinder bank 1 - slow response, oxygen sensor 1
+P0134 Heated oxygen sensor 1, cylinder bank 1 - inoperative, oxygen sensor 1
+P0135 Heated oxygen sensor 1, cylinder bank 1, heater control - malfunction Oxygen Sensor 1 Circuit
+P0136 Heated Oxygen Sensor 2, Bank 1 - Oxygen Sensor 2 Circuit Malfunction
+P0137 Heated Oxygen Sensor 2, Bank 1 - Low Voltage (Oxygen Sensor 2)
+P0138 Heated Oxygen Sensor 2, Bank 1 - High Voltage (Oxygen Sensor 2)
+P0139 Heated Oxygen Sensor 2, Bank 1 - Slow Response (Oxygen Sensor 2)
+P0140 Heated Oxygen Sensor 2, Bank 1 - Inoperative (Oxygen Sensor 2)
+P0141 Heated Oxygen Sensor 2, Bank 1, Heater Control Circuit Malfunction
+P0142 Heated Oxygen Sensor 3, Bank 1 - Circuit Malfunction
+P0143 Heated Oxygen Sensor 3, Bank 1 - Low Voltage
+P0144 Heated Oxygen Sensor 3, Bank 1 - Voltage Too High
+P0145 Heated Oxygen Sensor 3, Bank 1 - Slow Response
+P0146 Heated Oxygen Sensor 3, Bank 1 - Inoperative
+P0147 Heated Oxygen Sensor 3, Bank 1, Heater Control Circuit Malfunction
+P0148 Incorrect Fuel Delivery Rate
+P0149 Incorrect Injection Timing
+P0150 Heated Oxygen Sensor 1, Bank 2 - Circuit Malfunction
+P0151 Heated Oxygen Sensor 1, Bank 2 - Voltage Too Low
+P0152 Heated Oxygen Sensor 1, Bank 2 - Voltage Too High
+P0153 Heated Oxygen Sensor 1, Bank 2 - Slow Response
+P0154 Heated Oxygen Sensor 1, Bank 2 - Inoperative
+P0155 Heated Oxygen Sensor 1, Bank 2, Heater Control Circuit Malfunction
+P0156 Heated Oxygen Sensor 2, Bank 2, Heater Control Circuit Malfunction
+P0157 Heated Oxygen Sensor 2, Bank 2, Heater Control Voltage Low
+P0158 Heated Oxygen Sensor 2, Bank 2, Heater Control Voltage High
+P0159 Heated Oxygen Sensor 2, Bank 2, Heater Control Slow
+P0160 Heated Oxygen Sensor 2, Bank 2, Inoperative
+P0161 Heated Oxygen Sensor 2, Bank 2, Heater Control Circuit Malfunction
+P0162 Heated Oxygen Sensor 3, Bank 2, Heater Control Circuit Malfunction
+P0163 Heated Oxygen Sensor 3, Bank 2, Heater Control Voltage Low
+P0164 Heated Oxygen Sensor 3, Cylinder Bank 2 - Voltage Too High
+P0165 Heated Oxygen Sensor 3, Cylinder Bank 2 - Slow Response
+P0166 Heated Oxygen Sensor 3, Cylinder Bank 2 - Inoperative
+P0167 Heated Oxygen Sensor 3, Cylinder Bank 2, Heater Control Circuit Malfunction
+P0168 High Fuel Temperature
+P0169 Incorrect Fuel Composition
+P0170 Fuel Control, Cylinder Bank 1 - Malfunction
+P0171 Lean, Cylinder Bank 1
+P0172 Rich, Cylinder Bank 1
+P0173 Fuel Control, Cylinder Bank 2 - Malfunction
+P0174 Lean, Cylinder Bank 2
+P0175 Rich, Cylinder Bank 2
+P0176 Fuel Composition Sensor - Circuit Malfunction
+P0177 Fuel Composition Sensor - Range/Function Malfunction
+P0178 Fuel Composition Sensor - Input Signal Too Low
+P0179 Fuel Composition Sensor - Input Signal Too High
+P0180 Fuel Temperature Sensor A - Circuit Malfunction
+P0181 Fuel Temperature Sensor A - Range/Function Error
+P0182 Fuel Temperature Sensor A - Input Signal Too Low
+P0183 Fuel Temperature Sensor A - Input Signal Too High
+P0184 Fuel Temperature Sensor A - Intermittent Circuit Open
+P0185 Fuel Temperature Sensor B - Circuit Malfunction
+P0186 Fuel Temperature Sensor B - Range/Function Error
+P0187 Fuel Temperature Sensor B - Input Signal Too Low
+P0188 Fuel Temperature Sensor B - Input Signal Too High
+P0189 Fuel Temperature Sensor B - Intermittent Circuit Opens
+P0190 Fuel Rail Pressure Sensor - Circuit Malfunction
+P0191 Fuel Rail Pressure Sensor - Range/Function Error
+P0192 Fuel Rail Pressure Sensor - Input Signal Too Low
+P0193 Fuel Rail Pressure Sensor - Input Signal Too High
+P0194 Fuel Rail Pressure Sensor - Intermittent Circuit Opens
+P0195 Engine Oil Temperature Sensor - Circuit Malfunction
+P0196 Engine Oil Temperature Sensor - Range/Function Malfunction
+P0197 Engine Oil Temperature Sensor - Input Signal Too Low
+P0198 Engine Oil Temperature Sensor - Input Signal Too High
+P0199 Engine Oil Temperature Sensor - Intermittent Circuit Open
+P0200 Fuel Injector/Nozzle - Circuit Malfunction
+P0201 Fuel Injector/Nozzle 1 - Circuit Malfunction
+P0202 Fuel Injector/Nozzle 2 - Circuit Malfunction
+P0203 Injector/Nozzle 3 - Circuit Malfunction
+P0204 Injector/Nozzle 4 - Circuit Malfunction
+P0205 Injector/Nozzle 5 - Circuit Malfunction
+P0206 Injector/Nozzle 6 - Circuit Malfunction
+P0207 Injector/Nozzle 7 - Circuit Malfunction
+P0208 Injector/Nozzle 8 - Circuit Malfunction
+P0209 Injector/Nozzle 9 - Circuit Malfunction
+P0210 Injector/Nozzle 10 - Circuit Malfunction
+P0211 Injector/Nozzle 11 - Circuit Malfunction
+P0212 Injector/Nozzle 12 - Circuit Malfunction
+P0213 Cold Start Valve 1 - Circuit Malfunction
+P0214 Cold Start Valve 2 - Circuit Malfunction
+P0215 Fuel Solenoid Shutoff Valve - Circuit Malfunction
+P0216 Fuel Injection Control - Circuit Malfunction
+P0217 Engine Overheat
+P0218 Transmission Overheat
+P0219 Engine Overspeed
+P0220 Throttle Potentiometer B/Accelerator Pedal Sensor B - Circuit Malfunction
+P0221 Throttle Potentiometer B/Accelerator Pedal Sensor B - Range/Function Error
+P0222 Throttle Potentiometer B/Accelerator Pedal Sensor B - Input Signal Too Low
+P0223 Throttle Potentiometer B/Accelerator Pedal Sensor B - Input Signal Too High
+P0224 Throttle Potentiometer B/Accelerator Pedal Sensor B - Input Signal Too High
+P0225 Throttle Potentiometer C/Accelerator Pedal Sensor C - Circuit Malfunction
+P0226 Throttle Potentiometer C/Accelerator Pedal Sensor C - Range/Function Error
+P0227 Throttle Potentiometer C/Accelerator Pedal Sensor C - Input Signal Too Low Low
+P0228 Throttle Position Potentiometer C/Accelerator Pedal Sensor C Input Signal Too High
+P0229 Throttle Position Potentiometer C/Accelerator Pedal Sensor C Intermittent Circuit Opens
+P0230 Fuel Pump Relay Circuit Malfunction
+P0231 Fuel Pump Relay Low Signal
+P0232 Fuel Pump Relay High Signal
+P0233 Fuel Pump Relay Intermittent Circuit Opens
+P0234 Engine Boost Limit Exceeded
+P0235 Engine Boost Limit Not Reached
+P0236 Turbocharger Manifold Pressure Sensor A Range/Function Malfunction
+P0237 Turbocharger Manifold Pressure Sensor A Input Signal Too Low
+P0238 Turbocharger Manifold Pressure Sensor A Input Signal Too High
+P0239 Turbocharger Manifold Pressure Sensor B Circuit Malfunction
+P0240 Turbocharger Manifold Pressure Sensor B Range/Functional Error
+P0241 Intake Manifold Pressure Sensor B, Turbocharger System - Input Signal Too Low
+P0242 Intake Manifold Pressure Sensor B, Turbocharger System - Input Signal Too High
+P0243 Boost Pressure Control Valve A - Circuit Malfunction
+P0244 Boost Pressure Control Valve A - Range/Functional Error
+P0245 Boost Pressure Control Valve A - Signal Too Low
+P0246 Boost Pressure Control Valve A - Signal Too High
+P0247 Boost Pressure Control Valve B - Circuit Malfunction
+P0248 Boost Pressure Control Valve B - Range/Functional Error
+P0249 Boost Pressure Control Valve B - Signal Too Low
+P0250 Boost Pressure Control Valve B - Signal Too High
+P0251 Injection Pump A, Rotor/Cam Ring - Circuit Malfunction
+P0252 Injection Pump A, Rotor/Cam Ring - Range/Functional Error
+P0253 Injection Pump A, Rotor/Cam Ring - Signal too low
+P0254 Injection Pump A, Rotor/Cam Ring - Signal Too High
+P0255 Injection Pump A, Rotor/Cam Ring - Intermittent Circuit Opens
+P0256 Injection Pump B, Rotor/Cam Ring - Circuit Malfunction
+P0257 Injection Pump B, Rotor/Cam Ring - Range/Function Error
+P0258 Injection Pump B, Rotor/Cam Ring - Signal Too Low
+P0259 Injection Pump B, Rotor/Cam Ring - Signal Too High
+P0260 Injection Pump B, Rotor/Cam Ring - Intermittent Circuit Opens
+P0261 Injector/Nozzle 1 - Signal Too Low
+P0262 Injector/Nozzle 1 - Signal Too High
+P0263 Cylinder 1 - Cylinder Performance/Cylinder Balance Error
+P0264 Injector/Nozzle 2 - Signal Too Low
+P0265 Injector/Nozzle 2 - Signal Too high
+P0266 Cylinder 2 - Cylinder Performance/Cylinder Balance Error
+P0267 Injector/Nozzle 3 - Signal Too Low
+P0268 Injector/Nozzle 3 - Signal Too High
+P0269 Cylinder 3 - Cylinder Performance/Cylinder Balance Error
+P0270 Injector/Nozzle 4 - Signal Too Low
+P0271 Injector/Nozzle 4 - Signal Too High
+P0272 Cylinder 4 - Cylinder Performance/Cylinder Balance Error
+P0273 Injector/Nozzle 5 - Signal Too Low
+P0274 Injector/Nozzle 5 - Signal Too High
+P0275 Cylinder 5 - Cylinder Performance/Cylinder Balance Error
+P0276 Injector/Nozzle 6 - Signal Too Low
+P0277 Injector/Nozzle 6 - Signal Too High
+P0278 Cylinder 6 - Cylinder Performance/Cylinder Balance Error
+P0279 Injector/Nozzle 7 - Signal too low
+P0280 Injector/Nozzle 7 - Signal too high
+P0281 Cylinder 7 - Cylinder power/balance error
+P0282 Injector/Nozzle 8 - Signal too low
+P0283 Injector/Nozzle 8 - Signal too high
+P0284 Cylinder 8 - Cylinder power/balance error
+P0285 Injector/Nozzle 9 - Signal too low
+P0286 Injector/Nozzle 9 - Signal too high
+P0287 Cylinder 9 - Cylinder power/balance error
+P0288 Injector/Nozzle 10 - Signal Too Low
+P0289 Injector/Nozzle 10 - Signal Too High
+P0290 Cylinder 10 - Cylinder Performance/Cylinder Balance Error
+P0291 Injector/Nozzle 11 - Signal Too Low
+P0292 Injector/Nozzle 11 - Signal Too High
+P0293 Cylinder 11 - Cylinder Performance/Cylinder Balance Error
+P0294 Injector/Nozzle 12 - Signal Too Low
+P0295 Injector/Nozzle 12 - Signal Too High
+P0296 Cylinder 12 - Cylinder Performance/Cylinder Balance Error
+P0297 Excessive Vehicle Speed
+P0298 Engine Oil Temperature Too High
+P0299 Turbocharger/Supercharger - Low Boost
+P0300 Any/Multiple Cylinders - Misfire Detected
+P0301 Cylinder 1 - Misfire Detected
+P0302 Cylinder 2 - Misfire Detected
+P0303 Cylinder 3 - Misfire Detected
+P0304 Cylinder 4 - Misfire Detected
+P0305 Cylinder 5 - Misfire Detected
+P0306 Cylinder 6 - Misfire Detected
+P0307 Cylinder 7 - Misfire Detected
+P0308 Cylinder 8 - Misfire Detected
+P0309 Cylinder 9 - Misfire Detected
+P0310 Cylinder 10 - Misfire Detected
+P0311 Cylinder 11 - Misfire Detected
+P0312 Cylinder 12 - Misfire Detected
+P0313 Misfire Detected Low Fuel Level
+P0314 Misfire Detected Cylinder Not Specific
+P0315 Crankshaft Navigation System - Change Not Learned
+P0316 Failure to Start Detected (First 1000 RPM)
+P0317 Rough Road Hardware Not Present
+P0318 Rough Road Sensor A Circuit
+P0319 Rough Road Sensor B Circuit
+P0320 Ignition/Distributor Engine Speed Inlet Circuit Malfunction
+P0321 Ignition/Distributor Engine Speed Inlet Range/Performance Circuit
+P0322 Ignition/Distributor Engine Speed Inlet No Signal
+P0323 Ignition/Distributor Engine Speed Inlet Circuit Open
+P0324 \0\
+P0325 Knock Sensor 1 Circuit (Bank 2 or Single Sensor)
+P0326 Knock Sensor 1 Range/Performance Circuit (Bank 2 or Single Sensor)
+P0327 Knock Sensor 1 Circuit Low (Bank 2 or Single Sensor)
+P0328 Knock Sensor 1 Circuit High (Bank 2 or Single Sensor)
+P0329 Knock Sensor 1 Circuit Open (Bank 2 or Single sensor)
+P0330 Knock Sensor 2 Circuit (Bank 2)
+P0331 Knock Sensor 2 Range/Performance Circuit (Bank 2)
+P0332 Knock Sensor 2 Low Circuit (Bank 2)
+P0333 Knock Sensor 2 High Circuit (Bank 2)
+P0334 Knock Sensor 2 Open Circuit (Bank 2)
+P0335 Crankshaft Position Sensor A Circuit Malfunction
+P0336 Crankshaft Position Sensor A Range/Performance Circuit
+P0337 Crankshaft Position Sensor A Low Circuit
+P0338 Crankshaft Position Sensor A High Circuit
+P0339 Crankshaft Angle Sensor Time Wave Open Circuit
+P0340 Camshaft Position Sensor A, Bank 1 Circuit Malfunction
+P0341 Camshaft Position Sensor A, Bank 1 Range/Functional Error
+P0342 Camshaft Position Sensor A, Bank 1 - Input Signal Too Low
+P0343 Camshaft Position Sensor A, Bank 1 - Input Signal Too High
+P0344 Camshaft Position Sensor A, Bank 1 - Intermittent Circuit Opens
+P0345 Camshaft Position Sensor A, Bank 2 - Circuit Malfunction
+P0346 Camshaft Position Sensor A, Bank 2 - Range/Functional Error
+P0347 Camshaft Position Sensor A, Bank 2 - Input Signal Too Low
+P0348 Camshaft Position Sensor A, Bank 2 - Input Signal Too High
+P0349 Camshaft Position Sensor A, Bank 2 - Intermittent Circuit Opens
+P0350 Ignition Coil, Primary/Secondary Circuit Malfunction
+P0351 Ignition Coil A, Primary/Secondary Circuit Malfunction Circuit
+P0352 Ignition Coil B, Primary/Secondary Winding Circuit Malfunction
+P0353 Ignition Coil C, Primary/Secondary Winding Circuit Malfunction
+P0354 Ignition Coil D, Primary/Secondary Winding Circuit Malfunction
+P0355 Ignition Coil E, Primary/Secondary Winding Circuit Malfunction
+P0356 Ignition Coil F, Primary/Secondary Winding Circuit Malfunction
+P0357 Ignition Coil G, Primary/Secondary Winding Circuit Malfunction
+P0358 Ignition Coil H, Primary/Secondary Winding Circuit Malfunction
+P0359 Ignition Coil I, Primary/Secondary Winding Circuit Malfunction
+P0360 Ignition Coil J, Primary/Secondary Winding Circuit Malfunction
+P0361 Ignition Coil K, Primary/Secondary Winding Circuit Malfunction
+P0362 Ignition Coil L, Primary/Secondary Winding Circuit Malfunction Circuit
+P0363 Misfire Detected - Fuel Supply Disabled
+P0364 \0\
+P0365 Camshaft Position Sensor B, Bank 1 - Malfunction Circuit
+P0366 Camshaft Position Sensor B, Bank 1 - Range/Function Circuit Malfunction
+P0367 Camshaft Position Sensor B, Bank 1 - Input Signal Too Low
+P0368 Camshaft Position Sensor B, Bank 1 - Input Signal Too High
+P0369 Camshaft Position Sensor B, Bank 1 - Intermittent Circuit Open
+P0370 Ignition Timing Reference, High Signal Resolution A - Malfunction
+P0371 Ignition Timing Reference, High Resolution A - Signal Rate Too High
+P0372 Ignition Timing Reference, High Resolution A - Signal Rate Too Low
+P0373 Ignition Timing Reference, High Resolution A - Intermittent Signal
+P0374 Ignition Timing Reference, High Resolution A - No Signals
+P0375 Ignition Timing Reference, High Resolution B - Malfunction
+P0376 Ignition Timing Reference, High Resolution B - Signal Rate Too High
+P0377 Ignition Timing Reference, High Resolution B - Signal Rate Too Low
+P0378 Ignition Timing Reference, High Resolution B - Intermittent Signal
+P0379 Ignition Timing Reference, High Resolution B - No Signals
+P0380 Glow Plugs Circuit A - Malfunction
+P0381 Glow Plug Indicator Light - Circuit Malfunction
+P0382 Glow Plugs Circuit B - Malfunction
+P0383 \0\
+P0384 \0\
+P0385 Crankshaft Position Sensor B - Circuit Malfunction
+P0386 Crankshaft Position Sensor B - Range/Function Error
+P0387 Crankshaft Position Sensor B - Input Signal Too Low
+P0388 Crankshaft Position Sensor B - Input Signal Too High
+P0389 Crankshaft Position Sensor B - Intermittent Circuit Open
+P0390 Camshaft Position Sensor B, Bank 2 - Circuit Malfunction
+P0391 Camshaft Position Sensor B, Bank 2 - Circuit Range/Function Error
+P0392 Camshaft Position Sensor B, Bank 2 - Input Signal Too Low
+P0393 Camshaft Position Sensor B, Bank 2 - Input Signal Too High
+P0394 Camshaft Position Sensor B, Bank 2 - Circuit Intermittent Open
+P0395 \0\
+P0396 \0\
+P0397 \0\
+P0398 \0\
+P0399 \0\
+P0400 Exhaust Gas Recirculation - Flow Rate Malfunction
+P0401 Exhaust Gas Recirculation - Insufficient Flow Rate Detected
+P0402 Exhaust Gas Recirculation - Excessive Flow Rate Detected
+P0403 Exhaust Gas Recirculation - Circuit Malfunction
+P0404 Exhaust Gas Recirculation - Range/Function Control
+P0405 Exhaust Gas Recirculation Valve Sensor A - Input Signal Too Low
+P0406 Exhaust Gas Recirculation Valve Sensor A - Input Signal Too High
+P0407 Exhaust Gas Recirculation Valve Sensor B - Input Signal Too Low
+P0408 Exhaust Gas Recirculation Valve Sensor B - Input Signal Too High
+P0409 Exhaust Gas Recirculation Sensor A - Circuit Malfunction
+P0410 Secondary Air Injection - Malfunction
+P0411 Secondary Air Injection - Incorrect Flow Rate Detected
+P0412 Secondary Air Control Valve A - Circuit Malfunction
+P0413 Secondary Air Control Valve A - Open Circuit
+P0414 Secondary Air Control Valve A - Short Circuit
+P0415 Secondary Air Control Valve B - Circuit Malfunction
+P0416 Secondary Air Control Valve B - Open Circuit
+P0417 Secondary Air Control Valve B - Short Circuit
+P0418 Secondary Air Pump Relay A - Circuit Malfunction
+P0419 Secondary Air Pump Relay B - Circuit Malfunction
+P0420 Bank 1 Catalytic Converter - Efficiency Below Threshold
+P0421 Bank 1 Starting Catalytic Converter - Efficiency Below Threshold
+P0422 Bank 1 Main Catalytic Converter - Efficiency Below Threshold
+P0423 Bank 1 Heated Catalytic Converter - Efficiency Below Threshold
+P0424 Bank 1 Heated Catalytic Converter - Temperature Below Threshold
+P0425 Bank 1 Catalytic Converter Temperature Sensor 1
+P0426 Bank 1 Catalytic Converter Temperature Sensor Range/Function Error
+P0427 Bank 1 Catalytic Converter Temperature Sensor Input Signal Too Low
+P0428 Bank 1 Catalytic Converter Temperature Sensor Input Signal Too High
+P0429 Bank 1 Catalytic Converter Heater Control Circuit Malfunction
+P0430 Bank 2 Catalytic Converter System Efficiency Below Threshold
+P0431 Bank 2 Starting Catalytic Converter Efficiency Below Threshold
+P0432 Bank 2 Main Catalytic Converter Efficiency Below Threshold
+P0433 Bank 2 Heated Catalytic Converter Efficiency Below Threshold
+P0434 Bank 2 Heated Catalytic Converter Temperature Below Threshold
+P0435 Bank 2 Catalytic Converter
+P0436 Bank 2 Catalytic Converter Temperature Sensor Range/Function Error
+P0437 Catalytic Converter 1 Temperature Sensor, Bank 2 - Input Signal Too Low
+P0438 Catalytic Converter 1 Temperature Sensor, Bank 2 - Input Signal Too High
+P0439 Catalytic Converter Heater, Bank 2 - Control Circuit Malfunction
+P0440 Evaporative Emission Control System Malfunction
+P0441 Evaporative Emission Control System Incorrect Flow Rate Detected
+P0442 Evaporative Emission Control System Small Leak Detected
+P0443 Canister Solenoid Circuit Malfunction
+P0444 Canister Solenoid Circuit Open Circuit
+P0445 Canister Solenoid Circuit Short Circuit
+P0446 Evaporative Emission Control System Ventilation Control Circuit Malfunction
+P0447 Evaporative Emission Control System Ventilation Control System Open Circuit
+P0448 Evaporative Emission Control System Ventilation Control System Short Circuit
+P0449 Evaporative Emission Control System Catch System, Vent Valve Circuit Malfunction
+P0450 Evaporative Fuel Pressure Sensor Circuit Malfunction
+P0451 Evaporative Fuel Pressure Sensor Range/Function Error
+P0452 Evaporative Emission Pressure Sensor - Input Signal Too Low
+P0453 Evaporative Emission Pressure Sensor - Input Signal Too High
+P0454 Evaporative Emission Pressure Sensor - Intermittent Circuit Open
+P0455 Evaporative Emission System - Major Leak Detected
+P0456 Evaporative Emission System - Minor Leak Detected
+P0457 Evaporative Emission System - Leak Detected (Fuel Cap Leaking/Missing)
+P0458 Evaporative Emission System, Canister Solenoid - Signal Too Low
+P0459 Evaporative Emission System, Canister Solenoid - Signal Too High
+P0460 Fuel Level Sensor - Circuit Malfunction
+P0461 Fuel Level Sensor - Range/Function Error
+P0462 Fuel Level Sensor - Input Signal Too Low
+P0463 Fuel Level Sensor - Input Signal Too High
+P0464 Fuel level sensor - intermittent circuit open
+P0465 Carbon canister flow sensor solenoid - circuit malfunction
+P0466 Carbon canister flow sensor solenoid - range/function error
+P0467 Carbon canister flow sensor solenoid - input signal too low
+P0468 Carbon canister flow sensor solenoid - input signal too high
+P0469 Carbon canister flow sensor solenoid - intermittent circuit open
+P0470 Exhaust pressure sensor - circuit malfunction
+P0471 Exhaust pressure sensor - range/function error
+P0472 Exhaust pressure sensor - input signal too low
+P0473 Exhaust pressure sensor - input signal too high
+P0474 Exhaust pressure sensor - intermittent circuit open
+P0475 Exhaust pressure control valve - circuit malfunction
+P0476 Exhaust pressure control valve - range/function error
+P0477 Exhaust pressure control valve - input signal too high Low
+P0478 Exhaust Pressure Control Valve - Input Signal Too High
+P0479 Exhaust Pressure Control Valve - Intermittent Circuit Opens
+P0480 Cooling Fan Motor 1 - Circuit Malfunction
+P0481 Cooling Fan Motor 2 - Circuit Malfunction
+P0482 Cooling Fan Motor 3 - Circuit Malfunction
+P0483 Cooling Fan Motor, Reasonableness Check - Malfunction
+P0484 Cooling Fan Motor - Excessive Current Draw
+P0485 Cooling Fan Motor, Supply Voltage/Ground - Circuit Malfunction
+P0486 Exhaust Gas Recirculation Valve Position Sensor B - Circuit Malfunction
+P0487 Exhaust Gas Recirculation, Throttle Valve Control - Circuit Malfunction
+P0488 Exhaust Gas Recirculation, Throttle Valve Control - Circuit Malfunction
+P0489 Exhaust Gas Recirculation - Signal Too Low
+P0490 Exhaust Gas Recirculation - Signal Too High
+P0491 Secondary Air Injection, Bank 1 - Malfunction
+P0492 Secondary Air Injection, Bank 2 - Malfunction
+P0493 Cooling Fan Motor Overspeed (Clutch Locked)
+P0494 Cooling Fan Motor Speed - Too Low
+P0495 Cooling Fan Motor Speed - Too High
+P0496 Evaporative Emission Control System - Excessive Evaporative Emission
+P0497 Evaporative Emission Control System - Poor Evaporative Emission
+P0498 Evaporative Emission Control System, Ventilation Control - Signal Too Low
+P0499 Evaporative Emission Control System, Ventilation Control - Signal Too High
+P0500 Vehicle Speed Sensor - Circuit Malfunction
+P0501 Vehicle Speed Sensor - Range/Function Error
+P0502 Vehicle Speed Sensor - Input Signal Too Low
+P0503 Vehicle Speed Sensor - Input Signal Intermittent/Too High
+P0504 Brake Switch - Reference A/B
+P0505 Idle Control - Malfunction
+P0506 Idle Control - Speed Below Specified
+P0507 Idle Control - Speed above setpoint
+P0508 Idle air control - signal too low
+P0509 Idle air control - signal too high
+P0510 Idle switch - circuit malfunction
+P0511 Idle air control - circuit malfunction
+P0512 Starter request signal circuit - malfunction
+P0513 Immobilizer key incorrect
+P0514 Battery temperature sensor - range/function error circuit
+P0515 Battery temperature sensor - circuit malfunction
+P0516 Battery temperature sensor - signal too low
+P0517 Battery temperature sensor - signal too high
+P0518 Idle air control - intermittent circuit open
+P0519 Idle air control - circuit malfunction
+P0520 Engine oil pressure sensor/switch - circuit malfunction
+P0521 Engine oil pressure sensor/switch - range/function error
+P0522 Engine oil pressure sensor/switch - voltage too low
+P0523 Engine oil pressure sensor/switch - Voltage too high
+P0524 Engine oil pressure too low
+P0525 Cruise control system, actuator control - Range/function error circuit
+P0526 Cooling fan motor speed sensor - Malfunction circuit
+P0527 Cooling fan motor speed sensor - Range/function error circuit
+P0528 Cooling fan motor speed sensor - No signal
+P0529 Cooling fan motor speed sensor - Intermittent circuit open
+P0530 Air conditioning refrigerant pressure sensor - Malfunction circuit
+P0531 Air conditioning refrigerant pressure sensor - Range/function error
+P0532 Cooling fan motor speed sensor - Input signal too low
+P0533 Cooling fan motor - Speed sensor - input signal too high
+P0534 Refrigerant loss
+P0535 A/C evaporator temperature sensor - circuit malfunction
+P0536 A/C evaporator temperature sensor - range/function error circuit
+P0537 A/C evaporator temperature sensor - signal too low
+P0538 A/C evaporator temperature sensor - signal too high
+P0539 A/C evaporator temperature sensor - intermittent circuit open
+P0540 Intake air heater A - circuit malfunction
+P0541 Intake air heater A - signal too low
+P0542 Intake air heater A - signal too high
+P0543 Intake air heater A - open circuit
+P0544 EGR temperature sensor, bank 1 - circuit malfunction
+P0545 EGR temperature sensor, bank 1 - input signal too low
+P0546 EGR temperature sensor, bank 1 - input signal too high
+P0547 Exhaust Temperature Sensor, Bank 2 Sensor 1 - Circuit Malfunction
+P0548 Exhaust Temperature Sensor, Bank 2 Sensor 1 - Signal Too Low
+P0549 Exhaust Temperature Sensor, Bank 2 Sensor 1 - Signal Too High
+P0550 Power Steering Pressure Sensor/Switch - Circuit Malfunction
+P0551 Power Steering Pressure Sensor/Switch - Range/Function Error
+P0552 Power Steering Pressure Sensor/Switch - Input Signal Too Low
+P0553 Power Steering Pressure Sensor/Switch - Input Signal Too High
+P0554 Power Steering Pressure Sensor/Switch - Intermittent Circuit Opens
+P0555 Brake Booster Pressure Sensor - Circuit Malfunction
+P0556 Brake Booster Pressure Sensor - Range/Function Error
+P0557 Brake Booster Pressure Sensor - Input Signal Too Low
+P0558 Brake Booster Pressure Sensor - Input Signal Too High
+P0559 Brake Booster Pressure Sensor - Intermittent Open Circuit
+P0560 System Voltage Malfunction
+P0561 System Voltage Inconsistent
+P0562 System Voltage Too Low
+P0563 System Voltage Too High
+P0564 Cruise Control System, Multifunction Switch Input Signal A Circuit Malfunction
+P0565 Cruise Control Main Switch, ON Signal Malfunction
+P0566 Cruise Control Main Switch, OFF Signal Malfunction
+P0567 Cruise Control Selector Switch, RESUME Signal Malfunction
+P0568 Cruise Control Main Switch, SET Signal Malfunction
+P0569 Cruise Control Selector Switch, COAST Signal Malfunction
+P0570 Cruise Control System, Accelerator Pedal Sensor Signal Malfunction
+P0571 Cruise/Brake Pedal A Circuit Malfunction
+P0572 Cruise/Brake Pedal Switch A - Signal too low
+P0573 Cruise control/brake pedal switch A - Signal too high
+P0574 Cruise control system - Vehicle speed too high
+P0575 Cruise control system - Input circuit malfunction
+P0576 Cruise control system - Input signal too low
+P0577 Cruise control system - Input signal too high
+P0578 Cruise control system, multifunction switch input signal A - no signal change in the circuit
+P0579 Cruise control system, multifunction switch input signal A - Range/function fault circuit
+P0580 Cruise control system, multifunction switch input signal A - Signal too low
+P0581 Cruise control system, multifunction switch input signal A - Signal too high
+P0582 Cruise control system, vacuum control - open circuit
+P0583 Cruise control system, vacuum control - Signal too low
+P0584 Cruise control system, vacuum control - Signal too high
+P0585 Cruise control system, multifunction switch Input Signals A/B - Reference Error
+P0586 Cruise Control System, Ventilation Control - Open Circuit
+P0587 Cruise Control System, Ventilation Control - Signal Too Low
+P0588 Cruise Control System, Ventilation Control - Signal Too High
+P0589 Cruise Control System, Multifunction Switch Input Signal B - Circuit Malfunction
+P0590 Cruise Control System, Multifunction Switch Input Signal B - No Signal Change in Circuit
+P0591 Cruise Control System, Multifunction Switch Input Signal B - Circuit Range/Function Error
+P0592 Cruise Control System, Multifunction Switch Input Signal B - Signal Too Low
+P0593 Cruise Control System, Multifunction Switch Input Signal B - Signal Too High
+P0594 Cruise Control System, Actuator Control - Open Circuit
+P0595 Cruise Control System, Actuator Control - Signal Too Low
+P0596 Cruise Control System, Actuator Control - Signal Too High
+P0597 Thermostat Heater Control - Open Circuit
+P0598 Thermostatic Heating Control - Signal Too Low
+P0599 Thermostatic Heating Control - Signal Too High
+P0600 CAN Data Bus Malfunction
+P0601 Engine Control Module - Memory Checksum Error
+P0602 Engine Control Module - Programming Error
+P0603 Engine Control Module - Permanent Memory (KAM) Error
+P0604 Engine Control Module - RAM Memory Error
+P0605 Engine Control Module - RO Error M-Memory
+P0606 Engine Control Module/Powertrain Control Module - Microprocessor Malfunction
+P0607 Control Module - Impaired Function
+P0608 Engine Control Module, Vehicle Speed Sensor A Output Signal - Malfunction
+P0609 Engine Control Module, Vehicle Speed Sensor B Output Signal - Malfunction
+P0610 Control Module - Vehicle Options Error
+P0611 Fuel Injector Control Module - Impaired Function
+P0612 Fuel Injector Control Relay Circuit
+P0613 Transmission Control Module - Computer Error
+P0614 Engine Control Module/Transmission Control Module - Mismatch
+P0615 Starter Relay - Circuit Malfunction
+P0616 Starter Relay - Low Signal
+P0617 Starter Relay - High Signal
+P0618 Alternative Fuel Control Module - Persistent Memory (KAM) Error
+P0619 Alternative Fuel Control Module - RAM/ROM Memory Error
+P0620 Alternator Control - Malfunction Circuit
+P0621 Charge Indicator Light - Circuit Malfunction
+P0622 Alternator Field Strength Control - Circuit Malfunction
+P0623 Charge Indicator Light - Circuit Malfunction
+P0624 Fuel Cap Indicator Light - Circuit Malfunction
+P0625 Alternator Field Winding Terminal - Signal Too Low
+P0626 Alternator Field Winding Terminal - Signal Too High
+P0627 Fuel Pump Control - Open Circuit
+P0628 Fuel Pump Control - Signal Too Low
+P0629 Fuel Pump Control - Signal Too High
+P0630 VIN Not Programmed or Not Recognized (Mismatch) - Engine Control Module/Powertrain Control Module
+P0631 VIN Not Programmed or Not Recognized (Mismatch) - Transmission Control Module
+P0632 Odometer Not Programmed - Engine Control Module/Powertrain Control Module
+P0635 Power Steering Control - Circuit Malfunction
+P0636 Power Steering Control - Signal Too Low
+P0637 Power Steering Control - Signal Too High
+P0638 Throttle Valve Control, Bank 1 - Range/Function Malfunction
+P0639 Throttle Valve Control, Bank 2 - Range/Function Malfunction
+P0640 Intake Air Heater Control - Circuit Malfunction
+P0641 Sensor A Reference Voltage - Open Circuit
+P0642 Engine Control Module, Knock Control - Faulty
+P0643 Sensor A Reference Voltage - High
+P0644 Driver Information Interface, Serial Communication - Circuit Malfunction
+P0645 A/C Compressor Clutch Relay
+P0646 A/C Compressor Clutch Relay - Signal Too Low
+P0647 A/C Compressor Clutch Relay - Signal Too High
+P0648 Immobilizer Indicator Light - Circuit Malfunction
+P0649 Cruise Control Indicator Light - Circuit
+P0650 Engine Malfunction Warning Light - Circuit Malfunction
+P0651 Sensor B Reference Voltage - open circuit
+P0652 Sensor B reference voltage - too low
+P0653 Sensor B reference voltage - too high
+P0654 Engine speed output signal - circuit malfunction
+P0655 Engine overheat warning light output signal - circuit malfunction
+P0656 Fuel level output signal - circuit malfunction
+P0657 Actuator supply voltage - open circuit
+P0658 Actuator supply voltage - too low
+P0659 Actuator supply voltage - too high
+P0660 Manifold changeover solenoid valve, bank 1 - open circuit
+P0661 Manifold changeover solenoid valve, bank 1 - signal too low
+P0662 Manifold changeover solenoid valve, bank 1 - signal too high
+P0663 Manifold changeover solenoid valve, bank 2 - open circuit
+P0664 Manifold changeover solenoid valve, bank 2 - signal too high Low
+P0665 Intake Manifold Switching Solenoid Valve, Bank 2 - High Signal
+P0666 Powertrain/Engine/Transmission Control Module Internal Temperature Sensor - Circuit Malfunction
+P0667 Powertrain/Engine/Transmission Control Module Internal Temperature Sensor - Range/Function Error
+P0668 Powertrain/Engine/Transmission Control Module Internal Temperature Sensor - Low Signal
+P0669 Powertrain/Engine/Transmission Control Module Internal Temperature Sensor - High Signal
+P0670 Glow Plug Control Module - Circuit Malfunction
+P0671 Glow Plug, Cylinder 1 - Circuit Malfunction
+P0672 Glow Plug, Cylinder 2 - Circuit Malfunction
+P0673 Glow Plug, Cylinder 3 - Circuit Malfunction
+P0674 Glow Plug, Cylinder 4 - Circuit Malfunction
+P0675 Glow Plug, Cylinder 5 - Circuit Malfunction
+P0676 Glow Plug Cylinder 6 - Circuit Malfunction
+P0677 Glow Plug, Cylinder 7 - Circuit Malfunction
+P0678 Glow Plug, Cylinder 8 - Circuit Malfunction
+P0679 Glow Plug, Cylinder 9 - Circuit Malfunction
+P0680 Glow Plug, Cylinder 10 - Circuit Malfunction
+P0681 Glow Plug, Cylinder 11 - Circuit Malfunction
+P0682 Glow Plug, Cylinder 12 - Circuit Malfunction
+P0683 Glow Plug/Engine/Powertrain Control Module Communication
+P0684 Glow Plug/Engine/Powertrain Control Module Communication - Range/Function Error
+P0685 Engine/Powertrain Control Module Supply Relay - Open Circuit
+P0686 Engine/Powertrain Control Module Supply Relay - Low Signal
+P0687 Engine Control Relay - Short to Ground
+P0688 Engine Control Module Relay - Short to Battery Positive
+P0689 Engine/Powertrain Control Module Supply Relay - Signal Too Low in Relay Switch State Detection Circuit
+P0690 Engine/Powertrain Control Module Supply Relay - Signal Too High in Relay Switch State Detection Circuit
+P0691 Cooling Fan Motor 1 - Short to Ground
+P0692 Cooling Fan Motor 1 - Short to Battery Positive
+P0693 Cooling Fan Motor 2 - Short to Ground
+P0694 Cooling Fan Motor 2 - Short to Battery Positive
+P0695 Cooling Fan Motor 3 - Short to Ground
+P0696 Cooling Fan Motor 3 - Short to Battery Positive
+P0697 Sensor C Reference Voltage - Open Circuit
+P0698 Sensor C Reference Voltage - Too Low
+P0699 Sensor C Reference Voltage - Too High
+P0700 Transmission Control - Malfunction
+P0701 Transmission Control - Range/Function Error
+P0702 Transmission Control - Electrical Components
+P0703 Torque Converter/Brake Switch B - Malfunction
+P0704 Clutch Pedal Switch - Circuit Malfunction
+P0705 Transmission Position Sensor/Switch, Input Signals for Transmission Positions P/R/N/D/L - Malfunction
+P0706 Transmission Position Sensor/Switch - Range/Function Malfunction
+P0707 Transmission Position Sensor/Switch - Input Signal Too Low
+P0708 Transmission Position Sensor/Switch - Input Signal Too High
+P0709 Transmission Position Sensor/Switch - Intermittent Circuit Open
+P0710 Transmission Fluid Temperature Sensor - Circuit Malfunction
+P0711 Transmission Fluid Temperature Sensor - Range/Malfunction
+P0712 Transmission Fluid Temperature Sensor - Input Signal Too Low
+P0713 Transmission Fluid Temperature Sensor - Input Signal Too High
+P0714 Transmission Fluid Temperature Sensor - Intermittent Circuit Open
+P0715 Turbine Shaft Speed Sensor - Circuit Malfunction
+P0716 Turbine Shaft Speed Sensor - Range/Function Error
+P0717 Turbine Shaft Speed Sensor - No Signal
+P0718 Turbine Shaft Speed Sensor - Intermittent Circuit Opens
+P0719 Torque Converter/Brake Switch B - Low Signal
+P0720 Vehicle Speed Sensor - Malfunction
+P0721 Vehicle Speed Sensor - Range/Function Error
+P0722 Vehicle Speed Sensor - No Signal
+P0723 Vehicle Speed Sensor - Intermittent Circuit Opens
+P0724 Torque Converter/Brake Switch B - High Signal
+P0725 Engine Speed Input Signal - Circuit Malfunction
+P0726 Engine Speed Input Signal - Range/Function Error
+P0727 Engine Speed Input Signal - No Signal
+P0728 Engine Speed Input Signal - Intermittent Circuit Opens
+P0729 Gear 6 - Incorrect Gear Ratio
+P0730 Incorrect Gear Ratio
+P0731 Gear 1 - Gear Ratio incorrect
+P0732 2nd Gear - Incorrect Gear Ratio
+P0733 3rd Gear - Incorrect Gear Ratio
+P0734 4th Gear - Incorrect Gear Ratio
+P0735 5th Gear - Incorrect Gear Ratio
+P0736 Reverse Gear - Incorrect Gear Ratio
+P0737 Transmission Control Module Engine Speed - Output Circuit
+P0738 Transmission Control Module Engine Speed - Output Circuit Signal Too Low
+P0739 Transmission Control Module Engine Speed - Output Circuit Signal Too High
+P0740 Torque Converter Clutch Solenoid - Malfunction Circuit
+P0741 Torque Converter Clutch Solenoid - Malfunction or Continuously Deactivated
+P0742 Torque Converter Clutch Solenoid - Continuously Activated
+P0743 Torque Converter Clutch Solenoid - Electrical Section
+P0744 Torque Converter Clutch Solenoid - Intermittent Circuit Opens
+P0745 Transmission Fluid Pressure Solenoid - Malfunction Circuit
+P0746 Transmission Fluid Pressure Solenoid - Malfunction or Continuously Disabled
+P0747 Transmission Fluid Pressure Solenoid - Continuously Enabled
+P0748 Transmission Fluid Pressure Solenoid - Electrical Section
+P0749 Transmission Fluid Pressure Solenoid - Intermittent Circuit Opens
+P0750 Shift Solenoid A - Circuit Malfunction
+P0751 Shift Solenoid A - Malfunction or Continuously Disabled
+P0752 Shift Solenoid A - Continuously Enabled
+P0753 Shift Solenoid A - Electrical Section
+P0754 Shift Solenoid A - Intermittent Circuit Opens
+P0755 Shift Solenoid B - Circuit Malfunction
+P0756 Shift Solenoid B - Malfunction or Continuously Disabled
+P0757 Shift Solenoid B - Continuously Enabled
+P0758 Shift Solenoid B - Electrical Section
+P0759 Shift Solenoid B - Intermittent Circuit Opens
+P0760 Shift Solenoid C - Circuit Malfunction
+P0761 Shift Solenoid C - Malfunction or Continuously Disabled
+P0762 Shift Solenoid C - Continuously Enabled
+P0763 Shift Solenoid C - Electrical Section
+P0764 Shift Solenoid C - Intermittent Circuit Opens
+P0765 Shift Solenoid D - Electrical Section Malfunction
+P0766 Shift Solenoid D - Malfunction or Continuously Disabled
+P0767 Shift Solenoid D - Continuously Enabled
+P0768 Shift Solenoid D - Electrical Section
+P0769 Shift Solenoid D - Intermittent Circuit Opens
+P0770 Shift Solenoid E - Electrical Section Malfunction
+P0771 Shift Solenoid E - Malfunction or Continuously Disabled
+P0772 Shift Solenoid E - Permanently activated
+P0773 Shift solenoid E - electrical part
+P0774 Shift solenoid E - intermittent circuit opens
+P0775 Pressure regulator solenoid B - malfunction
+P0776 Pressure regulator solenoid B - malfunction or continuously deactivated
+P0777 Pressure regulator solenoid B - continuously activated
+P0778 Pressure regulator solenoid B - electrical malfunction
+P0779 Pressure regulator solenoid B - intermittent circuit opens
+P0780 Gear selection - erratic gear change
+P0781 Gear selection, 1-2 - erratic gear change
+P0782 Gear selection, 2-3 - erratic gear change
+P0783 Gear selection, 3-4 - erratic gear change
+P0784 Gear selection, 4-5 - erratic gear change
+P0785 Shift timing solenoid A - circuit malfunction
+P0786 Timing Solenoid A - Range/Function Malfunction
+P0787 Timing Solenoid A - Low Signal
+P0788 Timing Solenoid A - High Signal
+P0789 Timing Solenoid A - Intermittent Signal
+P0790 Transmission Mode Selector Switch - Circuit Malfunction
+P0791 Transmission Intermediate Shaft Speed Sensor - Circuit Malfunction
+P0792 Transmission Intermediate Shaft Speed Sensor - Range/Function Malfunction
+P0793 Transmission Intermediate Shaft Speed Sensor - No Signal
+P0794 Transmission Intermediate Shaft Speed Sensor - Intermittent Malfunction
+P0795 Transmission Fluid Pressure Solenoid C - Circuit Malfunction
+P0796 Transmission Fluid Pressure Solenoid C - Malfunction or Continuously Deactivated
+P0797 Transmission Fluid Pressure Solenoid C - Continuously Activated
+P0798 Transmission Fluid Pressure Solenoid C - Electrical Malfunction
+P0799 Transmission Oil Pressure Solenoid C - Intermittent Malfunction Circuit
+P0800 Transfer Case Control System, Engine Trouble Warning Lamp Request Signal - Malfunction
+P0801 Reverse Interlock Circuit - Malfunction
+P0802 Transmission Control System, Engine Trouble Warning Lamp Request Signal - Open Circuit
+P0803 1-4 Upshift (Skip) Solenoid - Malfunction Circuit
+P0804 1-4 Upshift (Skip) Warning Lamp - Malfunction Circuit
+P0805 Clutch Position Sensor - Malfunction Circuit
+P0806 Clutch Position Sensor - Range/Function Error
+P0807 Clutch Position Sensor - Input Signal Too Low
+P0808 Clutch Position Sensor - Input Signal Too High
+P0809 Clutch Position Sensor - Intermittent Malfunction Circuit
+P0810 Clutch Position Control Error
+P0811 Excessive Clutch slippage
+P0812 Reverse gear input circuit malfunction
+P0813 Reverse gear output circuit malfunction
+P0814 Drive indicator circuit malfunction
+P0815 Upshift switch circuit malfunction
+P0816 Downshift switch circuit malfunction
+P0817 Starter inhibitor circuit malfunction
+P0818 Powertrain disconnect switch circuit malfunction
+P0819 Drive upshift/downshift switch reference error
+P0820 Shift lever position sensor X-Y position circuit malfunction
+P0821 Shift lever position sensor X-position circuit malfunction
+P0822 Shift lever position sensor Y-position circuit malfunction
+P0823 Shift lever position sensor X-position circuit intermittent open circuit
+P0824 Shift lever position sensor Y-position circuit intermittent open circuit
+P0825 Shift lever position pull/push switch Circuit Malfunction
+P0826 Up/Down Switch Input Circuit
+P0827 Up/Down Switch Input Signal Low
+P0828 Up/Down Switch Input Signal High
+P0829 5-6 Upshift
+P0830 Clutch Pedal Switch A Circuit Malfunction
+P0831 Clutch Pedal Switch A Input Signal Low
+P0832 Clutch Pedal Switch A Input Signal High
+P0833 Clutch Pedal Switch B Circuit Malfunction
+P0834 Clutch Pedal Switch B Input Signal Low
+P0835 Clutch Pedal Switch B Input Signal High
+P0836 All-Wheel Drive Switch Circuit Malfunction
+P0837 All-Wheel Drive Switch Range/Function Error
+P0838 All-Wheel Drive Switch Input Signal Low
+P0839 All-Wheel Drive Switch Input Signal High
+P0840 Transmission Fluid Pressure Sensor A Malfunction Circuit
+P0841 Transmission Fluid Pressure Sensor A - Range/Function Malfunction
+P0842 Transmission Fluid Pressure Sensor A - Input Signal Too Low
+P0843 Transmission Fluid Pressure Sensor A - Input Signal Too High
+P0844 Transmission Fluid Pressure Sensor A - Intermittent Malfunction Circuit
+P0845 Transmission Fluid Pressure Sensor B - Malfunction Circuit
+P0846 Transmission Fluid Pressure Sensor B - Range/Function Malfunction
+P0847 Transmission Fluid Pressure Sensor B - Input Signal Too Low
+P0848 Transmission Fluid Pressure Sensor B - Input Signal Too High
+P0849 Transmission Fluid Pressure Sensor B - Intermittent Malfunction Circuit
+P0850 Park/Transmission Neutral Switch - Malfunction
+P0851 Park/Transmission Neutral Switch - Input Signal Too Low
+P0852 Park/Transmission Neutral Switch - Input Signal Too High
+P0853 Transmission Drive Switch - Input Circuit Malfunction
+P0854 Transmission Drive Switch - Input Signal Too High low
+P0855 Transmission control switch input signal too High
+P0856 Traction Control Input Signal Malfunction
+P0857 Traction Control Input Signal Range/Function Error
+P0858 Traction Control Input Signal Too Low
+P0859 Traction Control Input Signal Too High
+P0860 Shift Control Communication Circuit Malfunction
+P0861 Shift Control Communication Circuit Input Signal Too Low
+P0862 Shift Control Communication Circuit Input Signal Too High
+P0863 Transmission Control Communication Circuit Malfunction
+P0864 Transmission Control Communication Circuit Range/Function Error
+P0865 Transmission Control Communication Circuit Input Signal Too Low
+P0866 Transmission Control Communication Circuit Input Signal Too High
+P0867 Transmission Oil Pressure Sensor
+P0868 Transmission Oil Pressure Sensor Signal Too Low
+P0869 Transmission Oil Pressure Sensor Signal Too High
+P0870 Transmission Oil Pressure Sensor C Circuit Malfunction
+P0871 Transmission Oil Pressure Sensor C - Range/Function Error
+P0872 Transmission Oil Pressure Sensor C - Signal Too Low
+P0873 Transmission Oil Pressure Sensor C - Signal Too High
+P0874 Transmission Oil Pressure Sensor C - Intermittent Malfunction
+P0875 Transmission Oil Pressure Sensor D - Circuit Malfunction
+P0876 Transmission Oil Pressure Sensor D - Range/Function Error
+P0877 Transmission Oil Pressure Sensor D - Signal Too Low
+P0878 Transmission Oil Pressure Sensor D - Signal Too High
+P0879 Transmission Oil Pressure Sensor D - Intermittent Malfunction
+P0880 Transmission Control Module - Supply Input Signal Malfunction
+P0881 Transmission Control Module - Supply Input Signal Range/Function Error
+P0882 Transmission Control Module - Supply Input Signal Too Low
+P0883 Transmission Control Module - Supply Input Signal Too High
+P0884 Transmission Control Module - Supply Input Signal Intermittent Malfunction
+P0885 Transmission Control Module Supply Relay - Open control circuit
+P0886 Transmission control unit supply relay - Control circuit signal too low
+P0887 Transmission control unit supply relay - Control circuit signal too high
+P0888 Transmission control unit supply relay - Relay switching state detection circuit malfunction
+P0889 Transmission control unit supply relay - Relay switching state detection circuit range/function error
+P0890 Transmission control unit supply relay - Relay switching state detection circuit signal too low
+P0891 Transmission control unit supply relay - Relay switching state detection circuit signal too high
+P0892 Transmission control unit supply relay - Intermittent relay switching state detection circuit malfunction
+P0893 Multiple gears engaged simultaneously
+P0894 Component-related transmission slip
+P0895 Shift time too short
+P0896 Shift time too long
+P0897 Transmission fluid change required
+P0898 Transmission control - Engine malfunction warning lamp request - Signal too low
+P0899 Transmission control - Request Engine Malfunction Warning Light - Signal Too High
+P0900 Clutch Actuator - Open Circuit
+P0901 Clutch Actuator - Range/Function Circuit Error
+P0902 Clutch Actuator - Signal Too Low
+P0903 Clutch Actuator - Signal Too High
+P0904 Neutral Gate Position Circuit Malfunction
+P0905 Neutral Gate Position Circuit - Range/Function Error
+P0906 Neutral Gate Position Circuit - Signal Too Low
+P0907 Neutral Gate Position Circuit - Signal Too High
+P0908 Neutral Gate Position Circuit - Intermittent Malfunction Circuit
+P0909 Neutral Gate Position Control Error
+P0910 Neutral Gate Position Actuator - Open Circuit
+P0911 Neutral Gate Position Actuator - Range/Function Circuit Error
+P0912 Neutral Gate Position Actuator - Signal Too Low
+P0913 Neutral Gate Position Actuator - Signal Too high
+P0914 Shift Gate Position Circuit Malfunction
+P0915 Shift Gate Position Circuit Range/Function Error
+P0916 Shift Gate Position Circuit Low Signal
+P0917 Shift Gate Position Circuit High Signal
+P0918 Shift Gate Position Circuit Intermittent Malfunction
+P0919 Shift Gate Position Circuit Error
+P0920 Shift Gate Actuator Forward Motion Open Circuit
+P0921 Shift Gate Actuator Forward Motion Range/Function Error
+P0922 Shift Gate Actuator Forward Motion Low Signal
+P0923 Shift Gate Actuator Forward Motion High Signal
+P0924 Shift Gate Actuator Reverse Motion Open Circuit
+P0925 Shift Gate Actuator Reverse Motion Range/Function Error
+P0926 Shift Gate Actuator Reverse Motion Low Signal
+P0927 Actuator Shifting Reverse - Signal Too High
+P0928 Shift Interlock Solenoid - Open Circuit
+P0929 Shift Interlock Solenoid - Range/Function Circuit Malfunction
+P0930 Shift Interlock Solenoid - Signal Too Low
+P0931 Shift Interlock Solenoid - Signal Too High
+P0932 Hydraulic Pressure Sensor - Circuit Malfunction
+P0933 Hydraulic Pressure Sensor - Range/Function Circuit Malfunction
+P0934 Hydraulic Pressure Sensor - Input Signal Too Low
+P0935 Hydraulic Pressure Sensor - Input signal too high
+P0936 Hydraulic pressure sensor - intermittent circuit open circuit
+P0937 Hydraulic oil temperature sensor - circuit malfunction
+P0938 Hydraulic oil temperature sensor - range/malfunction
+P0939 Hydraulic oil temperature sensor - input signal too low
+P0940 Hydraulic oil temperature sensor - input signal too high
+P0941 Hydraulic oil temperature sensor - intermittent circuit open circuit
+P0942 Hydraulic unit
+P0943 Hydraulic unit - cycle time too short
+P0944 Hydraulic unit - pressure loss
+P0945 Hydraulic pump relay - open circuit
+P0946 Hydraulic pump relay - range/function fault circuit
+P0947 Hydraulic pump relay - signal too low
+P0948 Hydraulic pump relay - signal too high
+P0949 Automatic transmission shift - adaptive data acquisition not executed
+P0950 Automatic transmission shift control circuit
+P0951 Automatic transmission shift control circuit Range/Functional Fault
+P0952 Automatic Transmission Shift Control Circuit - Low Signal
+P0953 Automatic Transmission Shift Control Circuit - High Signal
+P0954 Automatic Transmission Shift - Intermittent Malfunction Circuit
+P0955 Automatic Transmission Shift Mode Circuit - Malfunction
+P0956 Automatic Transmission Shift Mode Circuit - Range/Functional Fault
+P0957 Automatic Transmission Shift Mode Circuit - Low Signal
+P0958 Automatic Transmission Shift Mode Circuit - High Signal
+P0959 Automatic Transmission Shift Mode Circuit - Intermittent Malfunction Circuit
+P0960 Pressure Control Solenoid A - Open Control Circuit
+P0961 Pressure Control Solenoid A - Control Circuit Range/Functional Fault
+P0962 Pressure Control Solenoid A - Control Circuit Signal Low
+P0963 Pressure Control Solenoid A - Control Circuit Signal High
+P0964 Pressure Control Solenoid B - Open Control Circuit
+P0965 Pressure Control Solenoid Valve B - Control Circuit Range/Function Error
+P0966 Pressure Control Solenoid Valve B - Control Circuit Signal Too Low
+P0967 Pressure Control Solenoid Valve B - Control Circuit Signal Too High
+P0968 Pressure Control Solenoid Valve C - Control Circuit Open
+P0969 Pressure Control Solenoid Valve C - Control Circuit Range/Function Error
+P0970 Pressure Control Solenoid Valve C - Control Circuit Signal Too Low
+P0971 Pressure Control Solenoid Valve C - Control Circuit Signal Too High
+P0972 Shift Solenoid Valve A - Control Circuit Range/Function Error
+P0973 Shift Solenoid Valve A - Control Circuit Signal Too Low
+P0974 Shift Solenoid Valve A - Control Circuit Signal Too High
+P0975 Shift Solenoid Valve B - Control Circuit Range/Function Error
+P0976 Shift Solenoid Valve B - Control Circuit Signal Too Low
+P0977 Shift Solenoid Valve B - Control Circuit Signal Too High
+P0978 Shift Solenoid Valve C - Control Circuit Range/Function Error
+P0979 Shift Solenoid Valve C - Control Circuit Signal Too Low
+P0980 Shift Solenoid Valve C - Control Circuit Signal Too High
+P0981 Shift Solenoid Valve D - Control Circuit Range/Function Error
+P0982 Shift Solenoid Valve D - Control Circuit Signal Too Low
+P0983 Shift Solenoid Valve D - Control Circuit Signal Too High
+P0984 Shift Solenoid Valve E - Control Circuit Range/Function Error
+P0985 Shift Solenoid Valve E - Control Circuit Signal Too Low
+P0986 Shift Solenoid Valve E - Control Circuit Signal Too High
+P0987 Transmission Oil Pressure Sensor E - Circuit Malfunction
+P0988 Transmission Oil Pressure Sensor E - Circuit Range/Function Error
+P0989 Transmission Oil Pressure Sensor E - Signal Too Low
+P0990 Transmission Oil Pressure Sensor E - Signal Too High
+P0991 Transmission Oil Pressure Sensor E - Intermittent Circuit Opens
+P0992 Transmission Oil Pressure Sensor F - Circuit Malfunction
+P0993 Transmission Oil Pressure Sensor F - Range/Function Circuit Error
+P0994 Transmission Oil Pressure Sensor F - Signal Too Low
+P0995 Transmission Oil Pressure Sensor F - Signal Too High
+P0996 Transmission Oil Pressure Sensor F - Intermittent Circuit Opens
+P0997 Shift Solenoid Valve F - Control Circuit Range/Function Error
+P0998 Shift Solenoid Valve F - Control Circuit Signal Too Low
+P0999 Shift Solenoid Valve F - Control Circuit Signal Too High
+<o3script.END;READ>
+<o3script.finish>
+<o3script\>
