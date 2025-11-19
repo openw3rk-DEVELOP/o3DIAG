@@ -1,5 +1,6 @@
 <h2>o3DIAG – OBD-II Diagnostic Tool</h2>
-<p>
+! Version 3.2.1 for Debian is also available in the "linux-only" branch !
+<p><br>
 o3DIAG is a diagnostic application designed to work with OBD-II vehicles through an ELM327 adapter.  
 It provides an easy way to connect, read vehicle data, and interpret diagnostic trouble codes (DTCs).
 </p>
